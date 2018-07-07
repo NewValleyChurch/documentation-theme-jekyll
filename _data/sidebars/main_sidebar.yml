@@ -235,6 +235,15 @@ entries:
       url: /blueprints.html
       output: web
 
+    - title: Maps
+      url: /
+      output: web
+      subfolders:
+
+      - title: Thermostats
+        url: /thermostats.html
+        output: web
+
   - title: Preparation / Troubleshooting Checklists
     output: web
     folderitems:
