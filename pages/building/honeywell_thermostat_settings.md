@@ -28,7 +28,7 @@ To get to these settings:
 
 ## Settings Unique to New Valley
 
-Under system setup, the following are the correct settings:
+Under system setup, the following are the only settings we need to be concerned about unless the thermostat has been completely reset:
 
 |Function|Should be|
 |---|---|
@@ -41,4 +41,4 @@ Under system setup, the following are the correct settings:
 |0330|0|
 |0530|1|
 |0890|1|
-|0900|1 Will be automatically set to 1 if connected to the WIFI router.|
+|0900|1 (Will be automatically set to 1 if connected to the WIFI router.)|
