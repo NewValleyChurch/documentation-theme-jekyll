@@ -36,7 +36,7 @@ Under system setup, the following are the only settings we need to be concerned 
 |0120 - 0150|Automatically set by internet|
 |0160|4|
 |0165|0|
-|0170|2|
+|0170|2 (Living room should be set to 1)|
 |0280|0|
 |0330|0|
 |0530|1|
