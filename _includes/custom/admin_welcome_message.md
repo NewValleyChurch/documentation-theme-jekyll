@@ -1,6 +1,6 @@
 ## About the Author
 
-Greetings!  My name is Jon Griffith and I am the one behind setting up this entire project.  As one of the original members of the congregation at New Valley, I have always been involved in some way, shape, or form in either the technical aspects of the church, or the worship music.  
+Greetings!  My name is Jon Griffith and I am the one sbehind setting up this entire project.  As one of the original members of the congregation at New Valley, I have always been involved in some way, shape, or form in either the technical aspects of the church, or the worship music.  
 
 
 As a result of our recent move to Chandler, we have graduated from the "temporary" environment that we had grown accustomed, to the beautiful facility we now have.  With that move has come new challenges and a higher level of excellence.  Alongside that come higher expectations, which means needing better organization and collaboration.
