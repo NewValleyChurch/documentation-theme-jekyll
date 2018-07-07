@@ -243,6 +243,11 @@ entries:
       - title: Thermostats
         url: /thermostats.html
         output: web
+        subfolderitems:
+        
+        - title: test
+          url: /test.html
+          output: web  
 
   - title: Preparation / Troubleshooting Checklists
     output: web
