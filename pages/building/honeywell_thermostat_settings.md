@@ -13,7 +13,7 @@ document_folder: documents
 summary: "Detailed configuration settings for Honeywell Thermostats"
 ---
 
-**Note: All WIFI thermostats can be programmed via a web or mobile app interface.**
+{% include note.html content="All WIFI thermostats can be programmed via a web or mobile app interface." %}
 
 This page deals with the core hardware configuration settings for the thermostats.
 
