@@ -12,4 +12,4 @@ image_folder: images
 document_folder: documents
 ---
 
-test
+tests
