@@ -15,3 +15,7 @@ document_folder: documents
 ## Sanctuary
 
 The sanctuary at New Valley is served by 5 A/C units connected to Honeywell RTH8500 Series Wireless Thermostats.  Each has been configured to be controlled remotely through Honewell's [mytotalconnectcomfort.com website](https://mytotalconnectcomfort.com/portal).
+
+## Map of Controls
+
+![Thermostats](/images/map-thermostats.jpg)
