@@ -1,5 +1,5 @@
 ---
-title: Test Page 1
+title: Basic Page Template
 layout: page
 comments: true
 permalink: page-template.html
