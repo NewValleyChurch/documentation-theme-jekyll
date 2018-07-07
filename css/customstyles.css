@@ -1,5 +1,6 @@
 body {
     font-size:15px;
+    font-family: 'Arvo', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .bs-callout {
@@ -66,6 +67,15 @@ body {
 .gi-5x{font-size: 5em;}
 
 
+.media-body,
+.media-left,
+.media-right {
+    display: table-cell;
+    vertical-align: top;
+    height: 120px;
+}
+
+
 
 
 
@@ -79,8 +89,8 @@ h4[id],
 h5[id],
 h6[id],
 dt[id]{
-padding-top: 60px;
-margin-top: -40px
+/*padding-top: 60px;
+margin-top: -40px */
 }
 
 .post-content img {
@@ -123,11 +133,14 @@ caption {
     color: #777;
     text-align: left;
 }
+
+
+
 th {
     text-align: left;
 }
 table {
-    max-width: 90%;
+    max-width: 100%;
     margin-bottom: 20px;
     border: 1px solid #dedede;
 }
@@ -160,9 +173,9 @@ table > thead:first-child > tr:first-child > td {
     border-top: 0;
 }
 
-table > tbody > tr:nth-of-type(odd) {
+/*table > tbody > tr:nth-of-type(odd) {
     background-color: #f9f9f9;
-}
+}*/
 
 table col[class*="col-"] {
     position: static;
@@ -279,11 +292,19 @@ li.dropdownActive a {
     font-weight: bold;
 }
 
+.navbar img {
+  width: 225px;
+  height: auto;
+}
+
+.navbar img:hover {
+  opacity:1.0;
+  box-shadow:none;
+}
 
 .post-content a.fa-rss {
     color: orange;
 }
-
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
@@ -383,8 +404,16 @@ ul#mysidebar {
     border-radius:0px;
 }
 
+ul#mysidebar_2 {
+    border-radius:0px;
+}
+
+ul#mysidebar_3 {
+    border-radius:0px;
+}
+
 .nav ul li ul li a {
-    padding-left:40px;
+    padding-left:20px;
 }
 
 .nav li.thirdlevel > a {
@@ -443,7 +472,6 @@ span.projectTitle {
 img.screenshotSmall {
     max-width: 300px;
 }
-
 
 dl dt p {
     margin-left:20px;
@@ -571,6 +599,19 @@ a[data-toggle] {
     color: #248EC2;
 }
 
+.updated {
+    font-size: 12px;
+    color: #808080;
+    margin: 0px 0px 20px 0px;
+    border-left: 5px solid #666666;
+    padding-left: 10px;
+}
+
+.updated:before {
+    content: "Page Updated as of: ";
+    font-weight: bold;
+}
+
 .summary {
     font-size:120%;
     color: #808080;
@@ -581,7 +622,7 @@ a[data-toggle] {
 }
 
 .summary:before {
-    content: "Summary: ";
+    content: "Page summary: ";
     font-weight: bold;
 }
 
@@ -590,10 +631,10 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {color: #ED1951; font-weight:normal; font-size:130%;}
-h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
+h3 {color: #404040; font-weight:normal; font-size:130%;}
+h4 {color: #606060; font-weight:normal; font-size:120%; font-style:italic;}
 
-.alert, .callout {
+.alert, .alert2, .callout {
     overflow: hidden;
 }
 
@@ -614,7 +655,7 @@ div#toc ul li ul li {
 
 .tab-content {
     padding: 15px;
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
 }
 
 span.tagTitle {font-weight: 500;}
@@ -637,7 +678,15 @@ div.alert code, h2 code {
     background-color: transparent !important;
 }
 /* without this, the links in these notes aren't visible.*/
+div.alert2 code, h2 code {
+    background-color: transparent !important;
+}
+
 .alert a {
+    text-decoration: underline;
+}
+
+.alert2 a {
     text-decoration: underline;
 }
 
@@ -716,6 +765,12 @@ ol.series li {
 #mysidebar .nav ul {
     background-color: #FAFAFA;
 }
+#mysidebar_2 .nav ul {
+    background-color: #FAFAFA;
+}
+#mysidebar_3 .nav ul {
+    background-color: #FAFAFA;
+}
 .nav ul.series li {
     list-style: decimal;
     font-size:12px;
@@ -791,12 +846,12 @@ dd {margin-left:20px;}
     font-weight: bold;
 }
 
-.note code, .alert code, .warning code, div#toc code, h2 code, h3 code, h4 code {
+.note code, .alert code, .alert2 code .warning code, div#toc code, h2 code, h3 code, h4 code {
     color: inherit;
     padding: 0px;
 }
 
-.alert {
+.alert, alert2 {
     margin-bottom:10px;
     margin-top:10px;
 }
@@ -857,10 +912,26 @@ span.soft {
         position: relative;
     }
 }
+@media (max-width: 990px) {
+    #mysidebar_2 {
+        position: relative;
+    }
+}
+@media (max-width: 990px) {
+    #mysidebar_3 {
+        position: relative;
+    }
+}
 
 @media (min-width: 1000px) {
 
     ul#mysidebar {
+        width: 225px;
+    }
+    ul#mysidebar_2 {
+        width: 225px;
+    }
+    ul#mysidebar_3 {
         width: 225px;
     }
 }
@@ -868,6 +939,12 @@ span.soft {
 @media (max-width: 900px) {
 
     ul#mysidebar {
+        max-width: 100%;
+    }
+    ul#mysidebar_2 {
+        max-width: 100%;
+    }
+    ul#mysidebar_3 {
         max-width: 100%;
     }
 }
@@ -880,21 +957,15 @@ span.soft {
 
 .post-content img {
     margin: 12px 0px 3px 0px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
 }
+.docimage-left {
+  float: left;
+}
+.docimage-right {
+  float: right;
+}
+
 .col-md-9 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-
-.post-content img {
-    margin: 12px 0px 3px 0px;
-    width: auto;
-    height: auto;
     max-width: 100%;
     max-height: 100%;
 }
@@ -1003,6 +1074,12 @@ span.label.label-primary {
 }
 .col-lg-12 .nav li a {background-color: white}
 
+.media {
+  margin-top: 20px;
+}
+.media:first-child {
+    margin-top: 20px;
+}
 
 .nav li.active > a.subfoldersTitle {
     background-color: whitesmoke;
@@ -1139,6 +1216,19 @@ div.box.box1 {
         font-size: 14px;
     }
 
+.embedYoutube {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.youtubeVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /*
  * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
  *

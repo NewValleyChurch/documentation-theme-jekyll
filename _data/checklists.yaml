@@ -1,0 +1,98 @@
+- check: ''
+  sequence: '1'
+  action: Turn on the iMac Media Computer
+  process: imac-audio
+  category: audio
+  help: ''
+- check: ''
+  sequence: '2'
+  action: Login as user MediaOne
+  process: imac-audio
+  category: audio
+  help: ''
+- check: ''
+  sequence: '2'
+  action: Open Ableton Live
+  process: ableton-live
+  category: media
+  help: ''
+- check: ''
+  sequence: '3'
+  action: Eat a donut
+  process: ableton-live
+  category: media
+  help: ''
+- check: ''
+  sequence: '3'
+  action: Power Up the QU-32 Mixing Console
+  process: imac-audio
+  category: media
+  help: ''
+- check: ''
+  sequence: '4'
+  action: Choose the System Audio Input and Output Device
+  process: imac-audio
+  category: media
+  help: ''
+- check: ''
+  sequence: '5'
+  action: Confirm Output Speakers Settings
+  process: imac-audio
+  category: media
+  help: ''
+- check: ''
+  sequence: '1'
+  action: Power Up the QU-32 Mixing Console
+  process: ableton-live
+  category: media
+  help: ''
+- check: ''
+  sequence: '1'
+  action: Login to Churchplant Media
+  process: podcast
+  category: media
+  help: ''
+- check: ''
+  sequence: '2'
+  action: Click the Publish Tab
+  process: podcast
+  category: media
+  help: ''
+- check: ''
+  sequence: '3'
+  action: Click the sermon for which you'll be uploading audio
+  process: podcast
+  category: media
+  help: ''
+- check: ''
+  sequence: '4'
+  action: 'On the right, click Add Sermon Audio'
+  process: podcast
+  category: media
+  help: ''
+- check: ''
+  sequence: '5'
+  action: Click the Upload Tab on the popup window.
+  process: podcast
+  category: media
+  help: ''
+- check: ''
+  sequence: '6'
+  action: >-
+    Drag the audio file to the upload area or use the Select Files button to
+    browse to the file.
+  process: podcast
+  category: media
+  help: ''
+- check: ''
+  sequence: '7'
+  action: Click 'Start Uploading'
+  process: podcast
+  category: media
+  help: ''
+- check: ''
+  sequence: '8'
+  action: Click Publish Now
+  process: podcast
+  category: media
+  help: ''

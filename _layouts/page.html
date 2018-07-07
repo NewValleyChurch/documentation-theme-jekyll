@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-
 <div class="post-header">
+  <div style="float:right;"><a onclick="window.history.back()">Return to Previous Page</a></div>
    <h1 class="post-title-main">{{ page.title }}</h1>
 </div>
 
@@ -14,7 +14,7 @@ layout: default
     });
 </script>
 
-{% include custom/{{page.map_name}}.html %}
+{% include custom/map_names/{{page.map_name}}.html %}
 
 {% elsif page.complex_map == true %}
 
@@ -27,9 +27,8 @@ layout: default
 {% include custom/{{page.map_name}}.html %}
 
 {% endif %}
-
 <div class="post-content">
-
+   {% include custom/last_updated.html %}
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}
@@ -41,7 +40,9 @@ layout: default
 
     {% if site.github_editme_path %}
 
-    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "index.html" %}pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "index.html" %}{{site.repository}}/tree/master/pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-pencil fa-lg"></i> Edit me</a>
+
+    <a target="_blank" href="https://github.com/NewValleyChurch/NewValleyChurch.github.io/issues/new" class="btn btn-default githubIssuesButton" role="button"><i class="fa fa-exclamation-triangle  fa-lg"></i> Report a problem with this page.</a>
 
     {% endif %}
 
@@ -54,6 +55,7 @@ layout: default
 
   {{content}}
 
+<div style="clear: both;"></div>
     <div class="tags">
         {% if page.tags != null %}
         <b>Tags: </b>
@@ -65,7 +67,7 @@ layout: default
         {% endfor %}
         {% endif %}
     </div>
-
+<div style="float:right;"><a onclick="window.history.back()">Return to Previous Page</a></div>
 {% include disqus.html %}
 
 </div>

@@ -1,0 +1,308 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: General Main Menu
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Home
+    output: web
+    url: /index.html
+    folderitems:
+
+    - title: Welcome
+      url: /index.html
+      output: web
+      type: homepage
+
+    - title: About this Site
+      url: /about-this-site.html
+      output: web
+
+    - title: Get Involved
+      url: /get_involved.html
+      output: web
+
+    - title: Supporting Tools
+      url: /collaboration.html
+      output: web
+
+  - title: Planning Center Details
+    output: web
+    url: /planning-center.html
+    folderitems:
+
+    - title: Overview
+      url: /planning-center.html
+      output: web
+
+    - title: People
+      url: /pco-people.html
+      output: web
+
+    - title: Check-Ins
+      url: /ipad-guided-mode-for-check-in-stations.html
+      output: web
+
+    - title: Registrations
+      url: /pco-registrations.html
+      output: web
+
+    - title: Services
+      url: /pco-services.html
+      output: web
+
+    - title: Articles and Pages
+      url: /category_planning-center.html
+      output: web
+
+  - title: Mailchimp
+    output: web
+    url: /
+    folderitems:
+
+    - title: Overview
+      url: /mailchimp.html
+      output: web
+
+    - title: Articles and Pages
+      url: category_mailchimp.html
+      output: web
+
+#  - title: Worship Band
+#    output: web
+#    url: /band.html
+#    folderitems:
+#
+#    - title: Overview
+#      url: /band.html
+#      output: web
+#
+#    - title: Keyboard Setup
+#      url: /keyboard_setup.html
+#      output: web
+#
+#    - title: Stage Layout
+#      url: /stage_layout.html
+#      output: web
+
+  - title: Audio Visual Teams
+    output: web
+    url: /audiovisual.html
+    folderitems:
+
+    - title: Overview
+      url: /audiovisual.html
+      output: web
+
+      subfolders:
+      - title: Sound
+        url: /sound.html
+        output: web
+
+        subfolderitems:
+        - title: Sound Home Page
+          url: /sound.html
+          output: web
+
+        - title: Pre-Service Checklist
+          url: /pre_service_checklist.html
+          output: web
+
+        - title: Troubleshooting / FAQ
+          url: /faq_sound.html
+          output: web
+
+        - title: Equipment List
+          url: /equipment_list_sound.html
+          output: web
+
+      - title: Media
+        url: /media.html
+        output: web
+
+        subfolderitems:
+        - title: Media Home Page
+          url: /media.html
+          output: web
+
+        - title: Pre-Service Checklist
+          url: /pre_service_checklist.html
+          output: web
+
+        - title: Troubleshooting / FAQ
+          url: /faq_media.html
+          output: web
+
+        - title: Equipment List
+          url: /equipment_list_media.html
+          output: web
+
+      - title: Lights
+        url: /lights.html
+        output: web
+
+        subfolderitems:
+        - title: Lighting Home Page
+          url: /lights.html
+          output: web
+
+        - title: Pre-Service Checklist
+          url: /pre_service_checklist.html
+          output: web
+
+        - title: Troubleshooting / FAQ
+          url: /faq_lights.html
+          output: web
+
+        - title: Equipment List
+          url: /equipment_list_lights.html
+          output: web
+
+  - title: Network / IT
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /network.html
+      output: web
+
+    - title: Network IP Map
+      url: /network-ip-map.html
+      output: web
+      subfolders:
+
+      - title: Diagrams
+        url: /
+        output: web
+        subfolderitems:
+
+        - title: RJ45 Connector Wiring Diagram
+          url: /rj45-t568b-wiring-diagram.html
+          output: web
+    
+    - title: Change Log
+      url: /network-change-log.html
+      output: web
+
+  - title: News & Updates
+    output: web
+    folderitems:
+
+    - title: All News
+      url: /all_news.html
+      output: web
+
+    - title: General
+      url: /news_general.html
+      output: web
+
+    - title: AV Teams
+      url: /news_audiovisual.html
+      output: web
+
+    - title: Building
+      url: /news_building.html
+      output: web
+
+    - title: Network IT
+      url: /news_network.html
+      output: web
+
+  - title: Building and Facilities
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /facilities.html
+      output: web
+
+    - title: Blueprints
+      url: /blueprints.html
+      output: web
+
+  - title: Preparation / Troubleshooting Checklists
+    output: web
+    folderitems:
+
+    - title: iMac Audio Setup
+      url: /checklist-imac-audio.html
+      output: web
+
+    - title: Ableton Live Setup (Media)
+      url: /checklist-ableton-live.html
+      output: web
+
+    - title: Uploading Podcast Audio
+      url: /checklist-podcast.html
+      output: web
+     
+    - title: Room 1 Sound System How To
+      url: /room-1-sound-configuration-and-instructions.html
+      output: web
+
+  - title: Site by Category
+    output: web
+    folderitems:
+
+    - title: Audio
+      url: /category_audio.html
+      output: web
+
+    - title: A/V
+      url: /category_audiovisual.html
+      output: web
+
+    - title: Worship Band
+      url: /category_band.html
+      output: web
+
+    - title: Building
+      url: /category_building.html
+      output: web
+
+    - title: General
+      url: /category_general.html
+      output: web
+
+    - title: Lights
+      url: /category_lights.html
+      output: web
+
+    - title: Media
+      url: /category_media.html
+      output: web
+
+    - title: Network
+      url: /category_network.html
+      output: web
+
+    - title: Softwares
+      url: /category_software.html
+      output: web
+
+    - title: Sound
+      url: /category_sound.html
+      output: web
+
+    - title: Technical
+      url: /category_technical.html
+      output: web
+
+    - title: Diagrams
+      url: /category_diagrams.html
+      output: web

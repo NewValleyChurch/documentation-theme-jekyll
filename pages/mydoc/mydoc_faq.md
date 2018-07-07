@@ -1,7 +1,7 @@
 ---
 title: FAQ layout
 permalink: mydoc_faq_layout.html
-sidebar: mydoc_sidebar
+sidebar: main_sidebar
 tags: [special_layouts]
 keywords: frequently asked questions, FAQ, question and answer, collapsible sections, expand, collapse
 last_updated: November 30, 2015
@@ -16,7 +16,7 @@ folder: mydoc
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. Introduction</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">

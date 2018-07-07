@@ -1,0 +1,55 @@
+<h3>Content related to the category</h3>
+
+
+
+<p>{{page.categoryName}}</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Date Published</th>
+			<th>Type</th>
+			<th>Excerpt</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% assign thisCategory = page.categoryName %}
+			{% for page in site.pages %}
+				{% for category in page.categories %}
+					{% if category == thisCategory %}
+						<tr>
+							<td><a href="{{ page.url | remove: '/' }}">{{page.title}}</a></td>
+							<td>{{ page.date | date: '%m-%d-%Y' }}</td>
+							<td><span class="label label-default">Page</span></td>
+							<td>{% if page.summary %}
+									{{ page.summary | strip_html | strip_newlines | truncate: 20 }}
+								{% else %}
+									{{ page.content | truncatewords: 20 | strip_html }}
+								{% endif %}
+							</td>
+						</tr>
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+		{% assign thisCategory = page.categoryName %}
+			{% for post in site.posts %}
+				{% for category in post.categories %}
+					{% if category == thisCategory %}
+						<tr>
+							<td><a href="{{ post.url | remove: '/' }}">{{post.title}}</a></td>
+							<td>{{ post.date | date: '%m-%d-%Y' }}</td>
+							<td><span class="label label-info">Blog Post</span></td>
+							<td>
+								{% if post.summary %}
+									{{ post.summary | strip_html | strip_newlines | truncate: 20 }}
+								{% else %}
+									{{ post.content | truncatewords: 20 | strip_html }}
+								{% endif %}
+							</td>
+						</tr>
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+	</tbody>
+</table>
