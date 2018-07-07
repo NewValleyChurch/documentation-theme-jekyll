@@ -20,6 +20,9 @@ The sanctuary at New Valley is served by 5 A/C units connected to Honeywell RTH8
 
 ![Thermostats](/images/map-thermostats.jpg)
 
+## Honeywell Thermostat Settings
+
+You can view the [correct settings](/honeywell-thermostat-settings.html) for the Honeywell Thermostats [here](honeywell-thermostat-settings.html).
 ## Network Addresses
 
 Applies only to WIFI enabled thermostats.
