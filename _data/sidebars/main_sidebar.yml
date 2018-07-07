@@ -225,8 +225,8 @@ entries:
 
   - title: Building and Facilities
     output: web
+    
     folderitems:
-
     - title: Overview
       url: /facilities.html
       output: web
@@ -235,19 +235,14 @@ entries:
       url: /blueprints.html
       output: web
 
-    - title: Maps
-      url: /
-      output: web
       subfolders:
+    - title: Maps
+      output: web
 
+      subfolderitems:
       - title: Thermostats
         url: /thermostats.html
         output: web
-        subfolderitems:
-        
-        - title: test
-          url: /test.html
-          output: web  
 
   - title: Preparation / Troubleshooting Checklists
     output: web
