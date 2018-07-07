@@ -82,6 +82,7 @@ defaults:
     values:
       layout: "page"
       comments: true
+      permalink: ""
       search: true
       sidebar: main_sidebar
       topnav: topnav
