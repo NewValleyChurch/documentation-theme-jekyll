@@ -236,13 +236,13 @@ entries:
       output: web
 
       subfolders:
-    - title: Maps
-      output: web
-
-      subfolderitems:
-      - title: Thermostats
-        url: /thermostats.html
+      - title: Maps
         output: web
+    
+        subfolderitems:
+        - title: Thermostats
+          url: /thermostats.html
+          output: web
 
   - title: Preparation / Troubleshooting Checklists
     output: web
