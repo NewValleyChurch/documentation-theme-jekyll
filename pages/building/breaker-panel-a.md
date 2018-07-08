@@ -20,6 +20,7 @@ Sanctuary, southeast corner, stage right.
 - Kitchen Appliances
 - Stage
 - Stage Lighting
+    - [Overhead circuits](overhead-stage-circuits.html) are mapped out here.
 - Projectors
 - Sanctuary east wall receptacles
 
