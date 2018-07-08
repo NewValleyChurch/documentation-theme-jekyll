@@ -2,7 +2,7 @@
 title: "News"
 tagName: news
 search: exclude
-permalink: tag_news.html
+permalink: tag_general.html
 sidebar: main_sidebar
 folder: tags
 ---

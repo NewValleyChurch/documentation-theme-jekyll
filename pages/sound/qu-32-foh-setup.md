@@ -4,7 +4,7 @@ published: true
 side_bar: main_sidebar
 categories: audiovisual
 date: 2017-12-22 14:03:35 -0700
-permalink: 2017-12-22-activity-log-audiovisual.html
+permalink: qu-32-routing-setup.html
 tags: [stage, sound, lights, qu-32, slack, dSnake]
 ---
 ## Scenes

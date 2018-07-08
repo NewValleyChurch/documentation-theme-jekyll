@@ -244,6 +244,18 @@ entries:
           url: /thermostats.html
           output: web
 
+      - title: Electrical
+        output: web
+
+        subfolderitems:
+        - title: Overview
+          url: /electrical-overview.html
+          output: web
+
+        - title: Breaker Panel A
+          url: /breaker-panel-a.html
+          output: web
+
   - title: Preparation / Troubleshooting Checklists
     output: web
     folderitems:
