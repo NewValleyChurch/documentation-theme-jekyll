@@ -13,7 +13,7 @@ document_folder: documents
 summary: "A brief overview of how and when to control the thermostats."
 ---
 
-{% include information.html content="The ultimate goal is to automate the climate control system to synchronize with the schedule of events at New Valley Church.  At some point, we won't need to manually control the thermostats." %}
+{% include important.html content="The ultimate goal is to automate the climate control system to synchronize with the schedule of events at New Valley Church.  At some point, we won't need to manually control the thermostats." %}
 
 [Facilities Map](thermostats.html)
 
