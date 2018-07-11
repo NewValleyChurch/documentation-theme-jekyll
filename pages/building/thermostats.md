@@ -10,6 +10,7 @@ sidebar: main_sidebar
 topnav: topnav
 image_folder: images
 document_folder: documents
+summary: "A basic primer on the thermostats at New Valley Church"
 ---
 
 ## Sanctuary
@@ -19,6 +20,8 @@ The sanctuary at New Valley is served by 5 A/C units connected to Honeywell RTH8
 ## Map of Controls
 
 ![Thermostats](/images/map-thermostats.jpg)
+
+## [How to Set The Thermostats](how-to-set-the-thermostats.html)
 
 ## Honeywell Thermostat Settings
 
