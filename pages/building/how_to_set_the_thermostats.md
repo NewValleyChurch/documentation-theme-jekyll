@@ -27,12 +27,12 @@ Nobody likes walking around the room adjusting each thermostat individually.  Th
 
 ### How to Control The WIFI Thermostats
 
-1. Point your browser to http://72.216.245.116:8123/lovelace and login.  Password is not disclosed on this site.
-1. Once you're logged in, find the `Climate Control` tab at the top and click or tap it.
+- Point your browser to http://72.216.245.116:8123/lovelace and login.  Password is not disclosed on this site.
+- Once you're logged in, find the `Climate Control` tab at the top and click or tap it.
 
 ![](images/climate-control-1.jpg)
 
-1. You will see a page with Thermostat Settings.
+- You will see a page with Thermostat Settings.
 
 ![](images/thermostat-settings-1.jpg)
 
@@ -40,9 +40,9 @@ Nobody likes walking around the room adjusting each thermostat individually.  Th
 
 #### Sanctuary Thermostats
 
-1. You can either adjust individual A/C units in the Sanctuary, or you can adjust all of them at the same time.
-1. Choose the length of time to hold the temperature you're about to set.
-1. Set each A/C unit, or set the master and all other thermostats will follow.
+- You can either adjust individual A/C units in the Sanctuary, or you can adjust all of them at the same time.
+- Choose the length of time to hold the temperature you're about to set.
+- Set each A/C unit, or set the master and all other thermostats will follow.
 
 Withing moments, you should experience a result.  You'll hear thermostats clicking and the units will fire up as the settings transmitted to Honeywell's MyTotalComfortConnect.com website will be sent back to each thermostat.
 
