@@ -25,15 +25,20 @@ Standard control applies.  Simply use the thermostat to set the temperature and/
 
 Nobody likes walking around the room adjusting each thermostat individually.  There are currently 7 WIFI thermostats that can be controlled through a web or mobile interface.
 
-## How to Control The WIFI Thermostats
+### How to Control The WIFI Thermostats
 
 1. Point your browser to http://72.216.245.116:8123/lovelace and login.  Password is not disclosed on this site.
 1. Once you're logged in, find the `Climate Control` tab at the top and click or tap it.
+
+![](images/climate-control-1.jpg)
+
 1. You will see a page with Thermostat Settings.
+
+![](images/thermostat-settings-1.jpg)
 
 {% include note.html content="At present, only 5 of the 7 WIFI controls are visible, along with two additional settings.  One setting is to change all thermostats at the same time, and the other setting tells the thermostats how long to hold that temperature before returning to regular climate control schedules." %}
 
-## Sanctuary Climate
+#### Sanctuary Thermostats
 
 1. You can either adjust individual A/C units in the Sanctuary, or you can adjust all of them at the same time.
 1. Choose the length of time to hold the temperature you're about to set.
