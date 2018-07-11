@@ -1,5 +1,5 @@
 ---
-title: "How To: Set The Thermostats"
+title: "How To Set The Thermostats"
 layout: page
 comments: true
 permalink: how-to-set-the-thermostats.html
