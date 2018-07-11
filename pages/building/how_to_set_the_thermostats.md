@@ -44,5 +44,4 @@ Nobody likes walking around the room adjusting each thermostat individually.  Th
 - Choose the length of time to hold the temperature you're about to set.
 - Set each A/C unit, or set the master and all other thermostats will follow.
 
-Withing moments, you should experience a result.  You'll hear thermostats clicking and the units will fire up as the settings transmitted to Honeywell's MyTotalComfortConnect.com website will be sent back to each thermostat.
-
+Within moments, you should experience a result.  The settings you just adjusted were sent through Home Assistant, to Honeywell's MyTotalConnectComfort.com control center, and back to the thermostats.
