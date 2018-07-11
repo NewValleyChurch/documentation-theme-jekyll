@@ -109,6 +109,10 @@ entries:
       url: /audiovisual.html
       output: web
 
+    - title: Change Log
+      url: /audiovisual-change-log.html
+      output: web
+
       subfolders:
       - title: Sound
         url: /sound.html
@@ -236,14 +240,6 @@ entries:
       output: web
 
       subfolders:
-      - title: Maps
-        output: web
-    
-        subfolderitems:
-        - title: Thermostats
-          url: /thermostats.html
-          output: web
-
       - title: Electrical
         output: web
 
@@ -254,6 +250,18 @@ entries:
 
         - title: Breaker Panel A
           url: /breaker-panel-a.html
+          output: web
+
+      - title: Heating / Cooling Systems
+        output: web
+
+        subfolderitems:
+        - title: Setting the Thermostats
+          url: /how-to-set-the-thermostats.html
+          output: web
+
+        - title: Thermostat Locations
+          url: /thermostats.html
           output: web
 
   - title: Preparation / Troubleshooting Checklists
