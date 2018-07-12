@@ -9,7 +9,7 @@ document_folder: documents
 permalink: home-assistant-change-log.html
 categories: hassio
 toc: false
-summary: "A list of changes to HASSIO automation system.""
+summary: "A list of changes to HASSIO automation system."
 ---
 
 ## 7-12-2018
