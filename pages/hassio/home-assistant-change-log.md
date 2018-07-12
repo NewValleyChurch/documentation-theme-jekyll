@@ -12,6 +12,12 @@ toc: false
 summary: A list of changes to HASSIO automation system.
 ---
 
+## 7-12-2018
+
+-	// Adjusted automations to handle the toe kick light strip in FOH.
+-	// Mounted NODEMCU Sensor logic board with Motion, Temperature, and Light Level sensor between the Sanctuary Stage display and the Exit sign.  Power is provided by the same source as the TV.
+-	// Tested and adjusted the sensors.
+
 ## 7-7-2018
 - // Updated HASS.IO to latest version from 0.72.1 to 0.73.
 
