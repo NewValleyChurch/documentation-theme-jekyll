@@ -11,6 +11,9 @@ categories: hassio
 toc: false
 summary: "A list of changes to HASSIO automation system."
 ---
+## 7-13-2018
+
+-	// Configured and installed Sonoff switch for desk-lamp behind iMac.
 
 ## 7-12-2018
 
