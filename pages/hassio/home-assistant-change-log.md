@@ -11,6 +11,16 @@ categories: hassio
 toc: false
 summary: "A list of changes to HASSIO automation system."
 ---
+## 7-14-2018
+
+-	// Reconfigured Raspberry Pi3 to use Ethernet port as primary connection.
+-	// Disconnected RPi3 from Wireless connection and attached to port 4 of the 8-port Ethernet Switch.
+-	// Tested connection good.
+-	// Added [configuration information](raspberry-pi-network-configuration.html) to site for future reference.
+-	// Updated programming for A/C Units (WIFI only).
+	-	// At Midnight, every night, all temperatures will be re-set to 85 degrees.
+	-	// Prior to Sunday Morning Service, all thermostats will fire up at 8AM.
+
 ## 7-13-2018
 
 -	// Configured and installed Sonoff switch for desk-lamp behind iMac.
