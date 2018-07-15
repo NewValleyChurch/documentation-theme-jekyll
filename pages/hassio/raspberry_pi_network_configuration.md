@@ -16,7 +16,7 @@ All of the configuration settings for automation at New Valley Church are stored
 
 There is an operating system on the card that boots the RPi3.  In order for the operating system to be able to communicate on the network, a single file must be configured before starting the system for the first time (and/or reconfiguring the network connection.)
 
-{% include note.html content="To adjust these settings, you will need to remove the flash card from the RPi3 and use a USB card reader to access the contents of the card on another computer.  The configuration file is a basic text file and can be edited with just about any text editor."
+{% include note.html content="To adjust these settings, you will need to remove the flash card from the RPi3 and use a USB card reader to access the contents of the card on another computer.  The configuration file is a basic text file and can be edited with just about any text editor." %}
 
 ## File Name and Location
 
