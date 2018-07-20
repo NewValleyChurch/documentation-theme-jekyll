@@ -1,6 +1,6 @@
 ---
 title: Architectural Blueprints
-keywords: building drawing
+keywords: building drawing lighting floorplan
 summary: "A collection of diagrams and plans for 101 E. Comstock"
 sidebar: main_sidebar
 permalink: blueprints.html
