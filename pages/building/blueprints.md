@@ -12,4 +12,9 @@ toc: false
 
 [![](images/A2RFloorplan.jpg)](images/A2RFloorplan.jpg)
 
+## E3.0 Lighting Plan
+
+[![](documents/E30LightingPlan.pdf)](images/E30LightingPlan.jpg)
+
+
 {% include links.html %}
