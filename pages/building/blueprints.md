@@ -14,7 +14,7 @@ toc: false
 
 ## E3.0 Lighting Plan
 
-[![](documents/E30LightingPlan.pdf)](images/E30LightingPlan.jpg)
+[![](images/E30LightingPlan.jpg)](documents/E30LightingPlan.pdf)
 
 
 {% include links.html %}
