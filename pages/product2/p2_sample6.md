@@ -4,7 +4,7 @@ keywords: sample
 summary: "This is just some sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample6.html
-simple_map: true
+complex_map: true
 map_name: usermapcomplex
 box_number: 1
 toc: false
