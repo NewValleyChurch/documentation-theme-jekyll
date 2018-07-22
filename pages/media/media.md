@@ -7,6 +7,6 @@ permalink: media.html
 folder: media
 toc: false
 ---
-{% include mediaintro.html %}
 {% include medianav.html %}
+{% include mediaintro.html %}
 {% include links.html %}
