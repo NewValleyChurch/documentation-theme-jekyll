@@ -2,7 +2,7 @@
 title: Sample 6 Topic
 keywords: sample
 summary: "This is just some sample topic..."
-sidebar: product2_sidebar
+sidebar: main_sidebar
 permalink: p2_sample6.html
 complex_map: true
 map_name: usermapcomplex
