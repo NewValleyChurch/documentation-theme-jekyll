@@ -1,5 +1,5 @@
 ---
-title: Sample 6 Topic
+title: 
 keywords: sample
 summary: "This is just some sample topic..."
 sidebar: main_sidebar
