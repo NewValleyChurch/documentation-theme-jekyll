@@ -54,14 +54,18 @@ entries:
       url: /pco-people.html
       output: web
 
-    - title: Check-Ins
-      url: /ipad-guided-mode-for-check-in-stations.html
-      output: web
-
       subfolders:
-      - title: iPad Guided Mode
-        url: /ipad-guided-mode-for-check-in-stations.html
+      - title: Check-In Stations
         output: web
+
+        subfolderitems:
+        - title: iPad Guided Mode
+          url: /ipad-guided-mode-for-check-in-stations.html
+          output: web
+
+        - title: Setup and Troubleshooting
+          url: /check-in-stations-setup-and-troubleshooting-guide.html
+          output: web
 
     - title: Registrations
       url: /pco-registrations.html
