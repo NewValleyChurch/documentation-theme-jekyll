@@ -60,5 +60,4 @@ In any web browser, enter the address http://192.168.9.3 or http://192.168.9.2 _
 When you select a printer, you're basically telling Check-Ins to send all print jobs on this device to that printer.  This is different than choosing which station will be doing the printing.  Stations can be set to print to other stations, which in turn print to the printer that _that particular station_ has been connected to.  This allows you to have one printer with multiple stations.
 
 
-
 {% include links.html %}

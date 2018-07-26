@@ -58,6 +58,11 @@ entries:
       url: /ipad-guided-mode-for-check-in-stations.html
       output: web
 
+      subfolders:
+      - title: iPad Guided Mode
+        url: /ipad-guided-mode-for-check-in-stations.html
+        output: web
+
     - title: Registrations
       url: /pco-registrations.html
       output: web
