@@ -10,23 +10,26 @@ layout: none
   <description>Test Feed</description>
      <atom:link href="{{ site.url }}/feed.test.xml" rel="self" type="application/rss+xml" />
   <link>{{ site.url }}</link>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
-  </author>
-
+  <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
   {% for page in site.pages %}
    {% if page.title  == 'Network Change Log' %}
    <item>
     <title>{{ page.title | xml_escape }}</title>
+    <author>
+      <name>{{ site.author.name }}</name>
+      <email>{{ site.author.email }}</email>
+    </author>
     <description>{{ page.excerpt | xml_escape }}</description>
     <link>{{ site.url }}{{ page.url }} </link>
     <source>{{ site.url }}{{ page.url }}</source>
-    <pubDate>{{ page.date | date_to_xmlschema }}</pubDate>
+    <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
    {% endif %}
   {% endfor %}
  </channel>
 </rss>
+
+
+
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
