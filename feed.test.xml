@@ -16,7 +16,8 @@ layout: none
    <email>{{ site.author.email }}</email>
   </author>
 
-  {% for page in site.pages limit:10 %}
+  {% for page in site.pages %}
+   {% if page.title  == 'Network Change Log' %}
    <item>
     <title>{{ page.title | xml_escape }}</title>
     <description>{{ page.excerpt | xml_escape }}</description>
@@ -25,6 +26,7 @@ layout: none
     <pubDate>{{ page.date | date_to_xmlschema }}</pubDate>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
+   {% endif %}
   {% endfor %}
  </channel>
 </rss>
