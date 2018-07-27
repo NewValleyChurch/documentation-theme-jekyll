@@ -12,6 +12,10 @@ toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---
 
+## 7-27-18
+
+-	// Test Update
+
 ## 7-20-18
 
 -	//  Identified issue with mouse cursor sticking periodically.  Problem has been isolated and worked around.
