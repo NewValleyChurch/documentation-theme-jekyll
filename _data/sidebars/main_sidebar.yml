@@ -347,16 +347,16 @@ entries:
 
   - title: Change Logs
     output: web
+    
     folderitems:
-
     - title: Overview
       url: /change-log-overview.html
       output: web
 
       subfolders:
       - title: Change Log Categories
-        outpub: web
-
+        output: web
+        
         subfolderitems:
         - title: Test
           url: /test.html
