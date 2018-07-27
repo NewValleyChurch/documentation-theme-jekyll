@@ -1,0 +1,26 @@
+---
+search: exclude
+layout: none
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+  <title>{{ site.title  | xml_escape }}</title>
+  <description>Test Feed</description>
+     <atom:link href="{{ site.url }}/feed.audio-visual-change-log.xml" rel="self" type="application/rss+xml" />
+  <link>{{ site.url }}</link>
+  <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+  {% for page in site.pages %}
+   {% if page.title  == 'Audio Visual Change Log' %}
+   <item>
+    <title>{{ page.title | xml_escape }}</title>
+    <description>{{ page.content | xml_escape }}</description>
+    <link>{{ site.url }}{{ page.url }} </link>
+    <source url="{{ site.url }}{{ page.url }}">New Valley Resources - Audio Visual Change Log</source>
+    <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
+   </item>
+   {% endif %}
+  {% endfor %}
+ </channel>
+</rss>

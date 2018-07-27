@@ -8,16 +8,16 @@ layout: none
  <channel>
   <title>{{ site.title  | xml_escape }}</title>
   <description>Test Feed</description>
-     <atom:link href="{{ site.url }}/feed.test.xml" rel="self" type="application/rss+xml" />
+     <atom:link href="{{ site.url }}/feed.building-and-facilities-change-log.xml" rel="self" type="application/rss+xml" />
   <link>{{ site.url }}</link>
   <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
   {% for page in site.pages %}
-   {% if page.title  == 'Network Change Log' %}
+   {% if page.title  == 'Building and Facilities Change Log' %}
    <item>
     <title>{{ page.title | xml_escape }}</title>
     <description>{{ page.content | xml_escape }}</description>
     <link>{{ site.url }}{{ page.url }} </link>
-    <source url="{{ site.url }}{{ page.url }}">New Valley Resources - Network Change Log</source>
+    <source url="{{ site.url }}{{ page.url }}">New Valley Resources - Building and Facilities Change Log</source>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
    {% endif %}

@@ -11,9 +11,10 @@ source: /var/www/newvalleyresources
 destination: /home/newvalleyresources/public_html
 
 author:
-  name: Jon Griffith
-  email: jon@jongriffith.com
-  web: http://www.jongriffith.com
+  jon_griffith:
+    name: Jon Griffith
+    email: jon@jongriffith.com
+    web: http://www.jongriffith.com
 
 
 # this appears in the footer
