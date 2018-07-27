@@ -17,8 +17,7 @@ layout: none
     <title>{{ page.title | xml_escape }}</title>
     <description>{{ page.content | xml_escape }}</description>
     <link>{{ site.url }}{{ page.url }} </link>
-    <source>{{ site.url }}{{ page.url }}</source>
-    <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
+    <source url="{{ site.url }}{{ page.url }}">New Valley Resources - Network Change Log</source>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
    {% endif %}
