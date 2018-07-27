@@ -29,7 +29,3 @@ layout: none
   {% endfor %}
  </channel>
 </rss>
-
-
-
-<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
