@@ -358,6 +358,38 @@ entries:
         output: web
         
         subfolderitems:
-        - title: Test
-          url: /test.html
+        - title: Building & Facilities
+          url: /building-change-log.html
+          output: web
+
+        - title: Network
+          url: /network-change-log.html
+          output: web
+
+        - title: Audio / Visual
+          url: /audiovisual-change-log.html
+          output: web
+
+        - title: Home Assistant
+          url: /hassio-change-log.html
+          output: web
+
+        - title: Lights
+          url: /lights-change-log.html
+          output: web
+
+        - title: Media
+          url: /media-change-log.html
+          output: web
+
+        - title: Sound
+          url: /sound-change-log.html
+          output: web
+
+        - title: Planning Center
+          url: /planning-center-change-log.html
+          output: web
+
+        - title: This Website
+          url: /website-change-log.html
           output: web
