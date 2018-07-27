@@ -344,3 +344,20 @@ entries:
     - title: Diagrams
       url: /category_diagrams.html
       output: web
+
+  - title: Change Logs
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /change-log-overview.html
+      output: web
+
+      subfolders:
+      - title: Change Log Categories
+        outpub: web
+
+        subfolderitems:
+        - title: Test
+          url: /test.html
+          output: web
