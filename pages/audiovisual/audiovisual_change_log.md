@@ -16,6 +16,9 @@ summary: "Changes and updates, repairs, maintenance relating sound, lights, medi
 
 -	// Enttec Playback Wing arrived today which will be our external console control for the lighting system.
 -	// Enttec ArtNet Ethernet to DMX adapter arrived.  This will allow us to control the lighting through the network rather than through a direct USB connection.  The major advantage is that more than one device can stand in as the control on any given day.
+-	// Installed Enttec Node Management Utility on MediaOne (NMU)
+-	// Ordered 24-Port Ubuquity UNI POE Managed Network Switch and Patch Panel
+-	// Installed Enttec ODE Mk2 Node for lighting and tested with QLC+
 
 ## 7-20-18
 
