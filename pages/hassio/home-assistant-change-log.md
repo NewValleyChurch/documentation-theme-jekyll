@@ -11,6 +11,11 @@ categories: hassio
 toc: false
 summary: "A list of changes to HASSIO automation system."
 ---
+
+## 7-30-2018
+
+-	// Added Meagan's iPhone to the sensors and uploaded avatar.
+
 ## 7-14-2018
 
 -	// Reconfigured Raspberry Pi3 to use Ethernet port as primary connection.

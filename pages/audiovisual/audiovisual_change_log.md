@@ -12,9 +12,10 @@ toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---
 
-## 7-27-18
+## 7-31-2018
 
--	// Test Update
+-	// Enttec Playback Wing arrived today which will be our external console control for the lighting system.
+-	// Enttec ArtNet Ethernet to DMX adapter arrived.  This will allow us to control the lighting through the network rather than through a direct USB connection.  The major advantage is that more than one device can stand in as the control on any given day.
 
 ## 7-20-18
 
