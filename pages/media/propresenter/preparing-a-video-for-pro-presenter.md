@@ -3,6 +3,7 @@ title: "How to: Prepare a Video for ProPresenter"
 layout: page
 comments: true
 sidebar: main_sidebar
+toc: true
 topnav: topnav
 image_folder: images
 document_folder: documents
