@@ -42,6 +42,16 @@ This will depend on what you want to have happen.
 
 ## Add the Video to the Slide
 
-{% include important.html content="test" %}
+{% include important.html content="There is a specific way to reference a video in ProPresenter.  Dragging and dropping a video into ProPresenter will cause problems.  Make sure you reference the video as explained here." %}
 
-# When the Video is created to be exactly the size of the screen.
+1. Right click the slide in the document where the video will be displayed.  At this point, it's probably the first and only slide.
+1. Click `Edit Slide`.
+1. Click the `Add Video to Slide` button on the toolbar above the slide.
+1. Choose the video file that was saved to the /Volumes/Blue/ProPresenter/Video folder.
+1. Click Select.
+1. The video should insert itself dead center on the slide inside of, or directly on top of the frame placeholder in the slide.
+1. Click the Object Properties icon in the slide properties inspector on the right.
+1. Change the width and height of the element to match the size of the frame on the template.  In this case, 1920X1080 would be a standard aspect ratio.  If the video is rendered at a lower resolution, such as 1280X720, you can still use 1920X1080 as your dimensions.  If you don't know the original dimensions of the video, you can find out by using the Mac Finder to browse to /Volumes/Blue/ProPresenter/Video.  Right click the video file and click `Get Info` then click the arrow next to `More Info.`  This will show you the Dimensions.  The most important aspect of this is making sure that the ratio of length X width remains the same, and that you don't blow up a small video to be too large for it's resolution.
+1. Set the X and Y coordinates to be 840 and 60 respectively.
+1. Close the slide editor and test your new slide.
+
