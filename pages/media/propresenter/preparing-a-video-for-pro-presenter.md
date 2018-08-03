@@ -13,20 +13,31 @@ permalink: peparing-a-video-for-pro-presenter.html
 folder: media
 ---
 
-Steps:
+## Steps:
 
-# When the Video dimensions are smaller than the screen.
+# When the Video we need to play is smaller than our screen.
 
 ## Create the Video Document
 
 1. Obtain highest quality copy of original or rendered original as possible.
-2. Save the file to /Volumes/Blue/ProPresenter/Video
-3. In ProPresenter, create a new Video Document.
-    - Click File -> New
-    - Name the Document (Example: Gospel Project for Kids)  The word "Video" does not need to be in the document title as that would be redundant.
-    - Choose a template for the video.  Click the template dropdown, select from Video & Photo Frames, choose the appropriate template for the series / layout.
-    - Select the "Video" category.
-    - Leave the size at 3600X1200
+2. Save the file to /Volumes/Blue/ProPresenter/Video  
+   
+   Any video that we download to be presented needs to be organized in this folder, which is a centralized network location.
+
+3. In ProPresenter, create a new document:  
+
+	- Press ⌘ + N.
+
+      {% include image.html file="crashvideos.jpg" %}
+
+    - In `New File Name:` enter the title of the Video.  Omit the word video from the title as that would be redundant.  
+	    	a) The video is going to be saved to the /Volumes/Blue/ProPresenter/**Video** folder,  
+	    	b) the video will have an extension that indicates that it's a video (*.mov, *.mp4, etc.), and  
+	    	c) we're going to categorize it as a video.
+
+    - Click the Template dropdown and select an appropriate video template for the slide.
+    - Under Category, select Video.
+    - For Size, select 3600 X 1200.
 
 ## Set the Slide Cues for the first slide
 
