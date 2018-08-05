@@ -8,6 +8,7 @@ sidebar: main_sidebar
 topnav: topnav
 image_folder: images
 document_folder: documents
+categories: automation
 summary: Routine for lighting up the floor in the sound booth when motion is detected.
 ---
 

@@ -7,7 +7,7 @@ topnav: topnav
 image_folder: images
 document_folder: documents
 permalink: home-assistant-change-log.html
-categories: hassio
+categories: [hassio, automation]
 toc: false
 summary: "A list of changes to HASSIO automation system."
 ---
