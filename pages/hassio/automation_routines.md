@@ -48,3 +48,6 @@ The following are the currently configured automations.
   - **Trigger**: When the system detects that all registered tracking devices are no longer connected to the WIFI network.
   - **Conditions**: House lights must already be on.
   - **Action**: Script runs `script.house_lights_timer`
+
+# HVAC / Air Conditioning System
+
