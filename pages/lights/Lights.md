@@ -127,7 +127,9 @@ There are 2 additional "electrics" which are also unicolor white/strobes hanging
 
 ### House Lights
 
-The house lights are split into 7 banks on an 8 Channel Dimmer pack.  The 8th channel is not being used currently.  The channels from from left to right on the dimmer, from 1 to 7 and correspond to the sanctuary from the stage to the back of the house.  Each track is a single channel of the controller.
+House lights are controlled by a Leviton 8-Channel DMX Dimmer Pack which is connected to the DMX lighting system.  Signals reach the dimmer pack through the Ethernet to DMX converter (Enttec ODE Mk2).  Channel 8 on the dimmer pack is unused.
+
+Signals to control the lights originate from any compatible device attached to the network.  This could be a computer workstation, a mobile device, a Raspberry Pi3, etc.  
 
 
 
