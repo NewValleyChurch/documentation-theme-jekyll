@@ -333,10 +333,13 @@ entries:
       url: /category_diagrams.html
       output: web
 
-  - title: Equipment List
-    url: /equipment_list.html
+  - title: Equipment Lists
     output: web
 
+    folderitems:
+    - title: Full List
+      url: /equipment_list.html
+      output: web
 
   - title: Change Logs
     output: web
