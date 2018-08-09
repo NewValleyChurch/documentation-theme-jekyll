@@ -1099,7 +1099,7 @@
   DMX Channels: ''
   Channel Patch: ''
 - asset_tag: ''
-  Image: 'Y'
+  Image: ''
   brand: j5create
   model: JUA250
   description: USB 2.0 to HDMI Video Adapter
@@ -1124,7 +1124,7 @@
   DMX Channels: ''
   Channel Patch: ''
 - asset_tag: ''
-  Image: 'Y'
+  Image: ''
   brand: SIIG
   model: BS41803X
   description: HDMI Extender over Single Cat5e/6 Balun
@@ -1149,7 +1149,7 @@
   DMX Channels: ''
   Channel Patch: ''
 - asset_tag: ''
-  Image: 'Y'
+  Image: ''
   brand: InFocus
   model: IN116
   description: InFocus IN116 Projector
@@ -1174,7 +1174,7 @@
   DMX Channels: ''
   Channel Patch: ''
 - asset_tag: ''
-  Image: 'Y'
+  Image: ''
   brand: Samsung
   model: BD-J5100
   description: Samsung BlueRay Player
@@ -1274,7 +1274,7 @@
   DMX Channels: ''
   Channel Patch: ''
 - asset_tag: ''
-  Image: 'Y'
+  Image: ''
   brand: Novation
   model: LaunchpadPro
   description: Novation LaunchPad Pro Midi Controller
@@ -1324,7 +1324,7 @@
   DMX Channels: ''
   Channel Patch: ''
 - asset_tag: ''
-  Image: 'Y'
+  Image: ''
   brand: Linksys
   model: EA4500
   description: Linksys EA4500 n900 Dual Band Wi-Fi Router
@@ -1349,7 +1349,7 @@
   DMX Channels: ''
   Channel Patch: ''
 - asset_tag: ''
-  Image: 'Y'
+  Image: ''
   brand: Netgear
   model: R6900
   description: Netgear Nighthawk AC1900 R6900
@@ -1499,7 +1499,7 @@
   DMX Channels: ''
   Channel Patch: ''
 - asset_tag: ''
-  Image: 'Y'
+  Image: ''
   brand: Luxul
   model: XAP-1410
   description: Luxul AC1200 Dual-Band Wireless Access Point
