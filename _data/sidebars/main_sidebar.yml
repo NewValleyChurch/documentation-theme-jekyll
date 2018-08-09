@@ -140,10 +140,6 @@ entries:
           url: /faq_sound.html
           output: web
 
-        - title: Equipment List
-          url: /equipment_list_sound.html
-          output: web
-
       - title: Media
         url: /media.html
         output: web
@@ -161,10 +157,6 @@ entries:
           url: /faq_media.html
           output: web
 
-        - title: Equipment List
-          url: /equipment_list_media.html
-          output: web
-
       - title: Lights
         url: /lights.html
         output: web
@@ -180,10 +172,6 @@ entries:
 
         - title: Troubleshooting / FAQ
           url: /faq_lights.html
-          output: web
-
-        - title: Equipment List
-          url: /equipment_list_lights.html
           output: web
 
   - title: Network / IT
@@ -344,6 +332,11 @@ entries:
     - title: Diagrams
       url: /category_diagrams.html
       output: web
+
+  - title: Equipment List
+    url: /equipment_list.html
+    output: web
+
 
   - title: Change Logs
     output: web
