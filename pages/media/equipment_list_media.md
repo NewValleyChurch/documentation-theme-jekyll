@@ -9,5 +9,5 @@ datatable: true
 comments: false
 ---
 
-{% include equipment_list_test.html %}
+{% include equipment_list.html %}
 {% include links.html %}
