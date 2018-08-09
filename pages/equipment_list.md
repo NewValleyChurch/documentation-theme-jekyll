@@ -1,12 +1,12 @@
 ---
-title: "Media Equipment List"
-keywords: inventory, media, media equipment
+title: "Equipment List"
+keywords: inventory
 sidebar: main_sidebar
-permalink: equipment_list_media.html
-folder: media
+permalink: equipment_list.html
 toc: false
 datatable: true
 comments: false
+categories: [equipment list, inventory, assets]
 ---
 
 {% include equipment_list.html %}
