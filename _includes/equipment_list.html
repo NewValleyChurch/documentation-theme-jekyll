@@ -1,6 +1,6 @@
 {% assign departmentname = page.name | remove:"equipment_list_" | remove:".md" %}{%
 assign items = site.data.equipment %}{%
-assign displayCol = "1,2,3,4,5,6" | split: "," %}
+assign displayCol = "1,2,4,6" | split: "," %}
 
 <table class="display">{% 
   for item in items %}{% 
