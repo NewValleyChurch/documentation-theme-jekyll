@@ -21,7 +21,7 @@ The ultimate purpose of this site is to communicate what needs to be known to th
 
 To build a comprehensive resource containing all of the pertinent information we need on a daily and weekly basis to help the staff and volunteers complete the tasks they need to complete efficiently.
 
-# Teams
+# Teams (work in progress)
 
 {% include /custom/teamicons.html %}
 
