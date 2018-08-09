@@ -1,0 +1,34 @@
+{% assign departmentname = page.name | remove:"equipment_list_" | remove:".md" %}{%
+assign items = site.data.equipment %}{%
+assign displayCol = "1,2,3,4,5,6,7,8" | split: "," %}
+
+<table class="display">{% 
+  for item in items %}{% 
+  if forloop.first == true %}
+    <thead>
+        <tr>{%
+    for field in item %}{%
+    assign indexToStr = forloop.index | append: "" %}{%
+    if displayCol contains indexToStr %}
+            <th>{{field[0] | replace: '_', ' ' | capitalize }}</th>{%
+  endif %}{%
+  endfor %}
+        </tr>
+    </thead>
+    <tbody>{%
+endif %}
+    
+        <tr>{%
+for field in item %}{%
+assign indexToStr = forloop.index | append: "" %}{%
+if displayCol contains indexToStr %}
+            <td>{%
+            if indexToStr == '2' and field[1] == 'Y' %}<a href="/{{item.model}}.html"><img src="/images/{{item.model}}.jpg" style="width:100px;height:auto;"></a>{%
+            elsif indexToStr == '4' %}<a href="/{{item.model}}.html">{{item.model}}</a>{%
+            else %}{{field[1]}}{% endif %}</td>{%
+            endif %}{%
+            endfor %}
+        </tr>{%
+endfor %}
+    </tbody>
+</table>
