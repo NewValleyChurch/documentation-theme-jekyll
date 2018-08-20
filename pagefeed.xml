@@ -15,7 +15,7 @@ layout: none
 for page in site.pages %}
 {% assign revised_on = last_modified_at %}
 <item>
-<title>{{revised_on}}{{ page.title | xml_escape }}</title>
+<title>Revision: {{revised_on}} Title: {{ page.title | xml_escape }}</title>
 <description>{{ page.content }}</description>
 <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
 <link>{{ page.url | prepend: site.url }}</link>
