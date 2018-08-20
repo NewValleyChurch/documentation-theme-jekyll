@@ -16,7 +16,7 @@ layout: none
 {% for page in pages %}
 <item>
 <title>{{ page.title | xml_escape }}</title>
-<description>{{ page.content | strip_html }}</description>
+<description>{{ page.content | strip_html | truncatewords:50 }}</description>
 <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
 <link>{{ page.url | prepend: site.url }}</link>
 <source url="{{ site.url }}/pagefeed.xml">New Valley Resources Page Feed</source>
