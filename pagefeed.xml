@@ -13,9 +13,8 @@ layout: none
 <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 <generator>Jekyll v{{ jekyll.version }}</generator>{%
 for page in site.pages %}
-{% assign revised_on = last_modified_at %}
 <item>
-<title>Revision: {{revised_on}} Title: {{ page.title | xml_escape }}</title>
+<title>Revision: {% last_modified_at %} Title: {{ page.title | xml_escape }}</title>
 <description>{{ page.content }}</description>
 <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
 <link>{{ page.url | prepend: site.url }}</link>
