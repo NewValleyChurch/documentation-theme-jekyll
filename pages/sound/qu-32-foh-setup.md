@@ -18,7 +18,7 @@ The scene labeled Re-Routed follows the routing on the I/O Patch -> dSNAKE In pa
 
 | QU Strip | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **dSnake** | Main | Exp | Main | Exp | Exp | Main | Exp | Exp |
+| **dSnake** | Main | Exp | Main | Exp | Exp | Mains | Exp | Exp |
 | **Input** | 1 | 10 | 2 | 11 | 9 | 6 |  12 | 8 |
 
 | QU Strip | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
