@@ -9,7 +9,6 @@
 <p class="post-meta">
   <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
     Published on: {{ page.date | date: "%b %-d, %Y" }}</br>
-    Revised on: {% last_modified_at %}
   </time>
 
   {% if page.categories != null %}| Category:
@@ -24,3 +23,5 @@
       {% endif %}
     {% endfor %}
   {% endif %}
+</br>
+Revised on: {% last_modified_at %}
