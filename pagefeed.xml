@@ -14,7 +14,7 @@ layout: none
 <generator>Jekyll v{{ jekyll.version }}</generator>{%
 for page in site.pages %}
 <item>
-<title>Revision: {% last_modified_at %} Title: {{ page.title | xml_escape }}</title>
+<title>{{ page.title | xml_escape }}</title>
 <description>{{ page.content }}</description>
 <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
 <link>{{ page.url | prepend: site.url }}</link>
