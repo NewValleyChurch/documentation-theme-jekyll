@@ -15,7 +15,7 @@ summary: "A list of changes to HASSIO automation system."
 ## 7-31-2018
 
 -	// Installed ArtNet support for HASS.IO and connected to new Enttec ODE Mk2 Ethernet to DMX device.
--	// Programmed Home Assistant to automatically turn house lights on when motion is detected at the center doors at the back of the sanctuary.
+-	// Programmed Home Assistant to automatically turn house lights on when motion is detected at the center doors at the back of the sanctuary...
 
 ## 7-30-2018
 
