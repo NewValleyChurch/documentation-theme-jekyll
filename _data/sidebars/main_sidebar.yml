@@ -355,7 +355,7 @@ entries:
         
         subfolderitems:
         - title: Building & Facilities
-          url: /building-change-log.html
+          url: /building-and-facilities-change-log.html
           output: web
 
         - title: Network
@@ -371,7 +371,7 @@ entries:
           output: web
 
         - title: Lights
-          url: /lights-change-log.html
+          url: /lighting-change-log.html
           output: web
 
         - title: Media
