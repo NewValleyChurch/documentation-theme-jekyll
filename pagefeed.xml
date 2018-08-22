@@ -15,7 +15,7 @@ layout: none
    
    <item>
     <title>{{ page.title | xml_escape }}</title>
-    <description>{{ page.content | xml_escape | strip_html }}</description>
+    <description>{{ page.content | xml_escape | strip_html | truncatewords:50 }}</description>
     <link>{{ site.url }}{{ page.url }} </link>
     <source url="{{ site.url }}{{ page.url }}">New Valley Resources - Network Change Log</source>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
