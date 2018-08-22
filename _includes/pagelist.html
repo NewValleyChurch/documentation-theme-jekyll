@@ -1,2 +1,9 @@
 {% assign pages = site.pages %}
-{{site.pages}}
+
+{% for page in pages %}
+{{page.title}}</br>
+{{page.url}}</br>
+{{page.permalink}}</br>
+{{page.last_modified_at}}</br>
+</p>
+{% endfor %}
