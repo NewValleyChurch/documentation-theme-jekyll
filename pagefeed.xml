@@ -14,6 +14,8 @@ layout: none
 <generator>Jekyll v{{ jekyll.version }}</generator>
 {% assign pages = site.pages %}
 {% for page in pages %}
+{{ page.title }}
+{% endfor %}
 <item>
 <title>{{ page.title | xml_escape }}</title>
 <description>{{ page.content | strip_html | truncatewords:50 }}</description>
