@@ -14,9 +14,7 @@ layout: none
   {% for page in site.pages %}
   {% assign last_modified = page.last_modified_at %}
   {% for item in last_modified %}
-  {{page.title}}
-  {% endfor %}
-  {% endfor %}
+  {{item}}
 
 
    <item>
@@ -26,7 +24,8 @@ layout: none
     <source url="{{ site.url }}{{ page.url }}">New Valley Resources - {{page.title}}</source>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
- 
+ {% endfor %}
+  {% endfor %}
   
  </channel>
 </rss>
