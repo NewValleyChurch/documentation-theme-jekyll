@@ -27,6 +27,6 @@ layout: none
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
  
-  {% endfor %}
+  
  </channel>
 </rss>
