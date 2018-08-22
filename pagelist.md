@@ -11,7 +11,7 @@ categories: general
 toc: false
 ---
 {% assign pages = site.pages %}
-{{pages}}
+{{site.pages}}
 {% for page in pages %}
 {{ site.url }}{{ page.url }}
 {% endfor %}
