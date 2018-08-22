@@ -10,7 +10,7 @@ document_folder: documents
 categories: general
 toc: false
 ---
-
-{% for page in site.pages %}
+{% assign pages = site.pages %}
+{% for page in pages %}
 {{ site.url }}{{ page.url }}
 {% endfor %}
