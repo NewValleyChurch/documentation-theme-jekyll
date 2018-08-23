@@ -1,5 +1,12 @@
 {% assign date_list = "" | split: ',' %}
 {% assign title_list = "" | split: ',' %}
+
+
+{% for item in site.pages %}
+{% assign date_list = date_list | push: last_modified_at %}
+{% assign title_list = title_list | push: title %}
+{% endfor %}
+
 {% assign pages = title_list | concat: date_list %}
 
 {{pages}}
