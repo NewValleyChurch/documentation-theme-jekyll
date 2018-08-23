@@ -5,7 +5,9 @@
 
 {% for item in page_list %}
 {% assign date_list = date_list | push: item.last_modified_at %}
+{% assign title_list = title_list | push: item.title %}
 
 {{item.title}}
 {% endfor %}
 {{date_list}}
+{{title_list}}
