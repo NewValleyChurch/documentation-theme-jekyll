@@ -1,5 +1,7 @@
 {% assign page_list = site.pages %}
-{{page_list}}
+{% for item in page_list %}
+{{item.title}}
+{% endfor %}
 
 
 
