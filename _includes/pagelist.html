@@ -1,5 +1,5 @@
 <!-- Pulls from _data network -->
-{% assign page_list = site.pages %}
+{% assign page_list = site.pages | sort: "last_modified_at" %}
 
 <table>
 {% for item in page_list %}
@@ -9,20 +9,13 @@
 {% endfor %}
 </table>
 
-{% for item in page_list %}
-{{item.last_modified_at}}
-{% endfor %}
-
-
 
 <table>
-{% for e in page_list %}
-{% assign updated = page.last_modified_at %}
-    <tr>
-    <td>{{updated}}</td>
-    {% for item in e %}
-        <td>{{item[1]}}</td>
-    {% endfor %}
-    </tr>
-    {% endfor %}
+{% for item in page_list %}
+<tr>
+	<td>{{item.last_modified_at}}</td>
+	<td>{{item.title}}</td>
+</tr>
+{% endfor %}
+
 </table>
