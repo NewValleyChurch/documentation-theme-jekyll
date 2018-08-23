@@ -5,6 +5,8 @@
 {{page_list[0]}}
 
 {% for item in page_list %}
-  {% assign my_array = my_array | push: item.title %}
-{{my_array}}
+  
+  {{item[0]}}
+  
+
 {% endfor %}
