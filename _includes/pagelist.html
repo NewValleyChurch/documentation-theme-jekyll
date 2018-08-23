@@ -1,14 +1,4 @@
-<!-- Pulls from _data network -->
-{% assign page_list = site.pages | sort: "last_modified_at" %}
-
-<table>
-{% for item in page_list %}
-<tr><td>
-{{item.title}}
-</td></tr>
-{% endfor %}
-</table>
-
+{% assign page_list = site.pages | sort: "title" %}
 
 <table>
 {% for item in page_list %}
