@@ -1,4 +1,4 @@
-{% assign page_list = site.pages | sort: "title" %}
+{% assign page_list = site.pages | sort: "last_modified_at" %}
 
 <table>
 {% for item in page_list %}
