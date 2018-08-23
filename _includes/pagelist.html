@@ -1,11 +1,14 @@
+{% assign my_array = "" | split: ',' %}
 {% assign page_list = site.pages %}
-
-<table>
 {% for item in page_list %}
-{{item}}
+  {% assign my_array = my_array | push: item.title,item.last_modified_at %}
+{% endfor %}
+<table>
+{% for item in my_array %}
 <tr>
-	<td>{{item.last_modified_at}}</td>
-	<td>{{item.title}}</td>
+	<td>
+{{item}}
+	</td>
 </tr>
 {% endfor %}
 
