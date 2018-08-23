@@ -12,6 +12,12 @@ toc: false
 summary: "A summary of changes made to the lighting system in the Sanctuary"
 ---
 
+## 8-23-2018
+
+-	// Returned 9 SixPar 200s to Clearwing Productions along with 17 Safety cables (Cables were included in the Elation lights)
+-	// Picked up a demo LED mini wash by MEGALite.
+-	// Set a time of Monday or Tuesday next week for a pickup of two demo lights.
+
 ## 8-21-2018
 
 -	// Repackaged 9 of the SixPars in preparation for exchange for alternate light selection.
