@@ -1,12 +1,12 @@
-{% raw %}
-{% assign page_list = site.pages %}
+    {% raw %}
+    {% assign page_list = site.pages %}
 
-{{page_list[0]}}
+    {{page_list[0]}}
 
-{% for item in page_list[0] %}
-{{item[0]}} | {{item[1]}}
-{% endfor %}
-{% endraw %}
+    {% for item in page_list[0] %}
+    {{item[0]}} | {{item[1]}}
+    {% endfor %}
+    {% endraw %}
 
 
 
