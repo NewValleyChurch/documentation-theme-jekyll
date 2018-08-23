@@ -1,18 +1,17 @@
 {% assign page_list = site.pages %}
-{% for item in page_list %}
-{{item.title}}
-{% endfor %}
-
-
-
-
-
-
-
-
 
 {% assign date_list = "" | split: ',' %}
 {% assign title_list = "" | split: ',' %}
+
+{% for item in page_list %}
+{% assign date_list = date_list | push: item.last_modified_at %}
+
+{{item.title}}
+{% endfor %}
+{{date_list}}
+
+
+
 
 {% for item in page_list %}
 {% assign date_list = date_list | push: last_modified_at %}
