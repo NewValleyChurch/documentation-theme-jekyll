@@ -9,22 +9,3 @@
 {{item.title}}
 {% endfor %}
 {{date_list}}
-
-
-
-
-{% for item in page_list %}
-{% assign date_list = date_list | push: last_modified_at %}
-{% assign title_list = title_list | push: title %}
-{% endfor %}
-
-{{title_list}}
-
-{{date_list}}
-
-
-{% assign pages = title_list | concat: date_list %}
-
-{% for item in pages %}
-{{pages}}
-{% endfor %}
