@@ -3,12 +3,15 @@
 
 <table>
 {% for item in page_list %}
-{{item.title}}
 <tr><td>
-{{item[1]}}
+{{item.title}}
 </td></tr>
 {% endfor %}
 </table>
+
+{% for item in page_list %}
+{{item}}
+{% endfor %}
 
 
 
