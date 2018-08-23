@@ -3,10 +3,12 @@
 
 <table>
 {% for e in page_list %}
+{% assign updated = page.last_modified_at %}
     <tr>
+    <td>{{updated}}</td>
     {% for item in e %}
         <td>{{item[1]}}</td>
     {% endfor %}
     </tr>
-{% endfor %}
+    {% endfor %}
 </table>
