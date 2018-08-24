@@ -17,28 +17,18 @@
 
 
 
+
 {% assign page_list = site.pages %}
 
-## Contents of First Page in site.pages
-
-
-
-## Bleh...this doesn't seem right...but it seems to be working.
-
-
-{% assign list = "" | split: ',' %}
-{% for page in page_list %}
-  {% if page.title == nil %}
-  {% else %}
-    {% assign title = page.title %}
-    {% assign modified = page.last_modified_at %}
-    {% capture final %}{"title"=>"{{title}}","dated"=>"{{modified}}"}{% endcapture %}
-    {% assign list = list | push: final %}
-  {% endif %}
-{% endfor %}
-
-{% for item in list %}
-{{item.title}}
-{% endfor %}
-
-{{list}}
+<table>
+    {% for item in page_list[0] %}
+    <tr>
+        <td>
+            {{item[0]}}
+        </td>
+        <td>
+            {{item[1]}}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
