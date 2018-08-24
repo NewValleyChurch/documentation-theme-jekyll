@@ -25,10 +25,6 @@ It's _perfect_ for **documenting processes**.
 
 This site is hosted and generated on GitHub using Jekyll.  Jekyll is a super-fast static website, meaning the files are generated in advance and don't rely on any bulky databases to respond when you access them.
 
-## Waffle.io
-
-Waffle is a visual project management board that takes care of managing issues that are created either through our GitHub Repository directly, or through Waffle.io itself.  [This is where you can access our project](https://waffle.io/NewValleyChurch/NewValleyChurch.github.io/join) on Waffle.io.
-
 ## How do we know what's going on where?
 
 By staying connected.
@@ -44,10 +40,6 @@ All users need to have the following:
   Go to [GitHub](http://www.GitHub.com) and create a new account.
 
   Once you have that account, post your GitHub user name to the #github channel in Slack so we can add you to the GitHub teams and Waffle.io teams.
-
-- **Waffle.io account.**
-
-  You'll need an invitation to the team at Waffle.io.  As soon as you join Slack, I'll send you an invitation.
 
 Once you have these accounts setup, you'll be connected to the system and, depending on your notification preferences, you'll receive notifications when things happen on any of the platforms.
 

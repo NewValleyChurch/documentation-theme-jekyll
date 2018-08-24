@@ -19,14 +19,7 @@ topnav_dropdowns:
           url: /news_band.html
         - title: Building / Facilities
           url: /building.html
-
-    - title: Network Resources
-      folderitems:
-        - title: Overview
-          url: /network.html
-        - title: Device IP Map
-          url: /network-ip-map.html
-
+          
 topnav:
   - title: Topnav
     items:
