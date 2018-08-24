@@ -32,3 +32,5 @@ topnav:
     items:
       - title: Home
         url: /index.html
+      - title: Church Directory
+        external_url: https://newvalleychurch.adjace.com/

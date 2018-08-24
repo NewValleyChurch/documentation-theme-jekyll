@@ -37,10 +37,6 @@ entries:
       url: /get_involved.html
       output: web
 
-    - title: Church Directory
-      url: https://newvalleychurch.adjace.com/
-      output: web
-
     - title: Supporting Tools
       url: /collaboration.html
       output: web
