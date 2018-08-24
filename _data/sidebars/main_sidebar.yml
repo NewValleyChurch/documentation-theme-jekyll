@@ -391,5 +391,5 @@ entries:
           output: web
 
         - title: This Website
-          url: /website-change-log.html
+          external_url: /website-change-log.html
           output: web
