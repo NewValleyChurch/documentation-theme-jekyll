@@ -38,14 +38,10 @@
 					{% if category == thisCategory %}
 						<tr>
 							<td><a href="{{ post.url | remove: '/' }}">{{post.title}}</a></td>
-							<td>{{ post.date | date: '%m-%d-%Y' }}</td>
+							<td>{{ post.date | date: '%m-%d-%Y' }}{% last_modified_at %}</td>
 							<td><span class="label label-info">Blog Post</span></td>
 							<td>
-								{% if post.summary %}
-									{{ post.summary | strip_html | strip_newlines | truncate: 20 }}
-								{% else %}
-									{{ post.content | truncatewords: 20 | strip_html }}
-								{% endif %}
+								{{ post.content | truncatewords: 20 | strip_html }}
 							</td>
 						</tr>
 					{% endif %}
