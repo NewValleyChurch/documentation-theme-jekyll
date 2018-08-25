@@ -20,7 +20,6 @@
 					{% if category == thisCategory %}
 						<tr>
 							<td><a href="{{ page.url | remove: '/' }}">{{page.title}}</a></td>
-							<td>{{ page.date | date: '%m-%d-%Y' }}</td>
 							<td><span class="label label-default">Page</span></td>
 							<td>{% if page.summary %}
 									{{ page.summary | strip_html | strip_newlines | truncate: 20 }}
@@ -38,7 +37,6 @@
 					{% if category == thisCategory %}
 						<tr>
 							<td><a href="{{ post.url | remove: '/' }}">{{post.title}}</a></td>
-							<td>{{ post.date | date: '%m-%d-%Y' }}{% last_modified_at %}</td>
 							<td><span class="label label-info">Blog Post</span></td>
 							<td>
 								{{ post.content | truncatewords: 20 | strip_html }}
