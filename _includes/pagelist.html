@@ -22,7 +22,7 @@
 
 
 
-{% assign page_list = site.pages %}
+{% assign page_list = site.pages | sort: 'page.last_modified_at' %}
 
 ## Data Contents of First Page in Jekyll Site
 
