@@ -7,7 +7,7 @@ topnav: topnav
 image_folder: images
 document_folder: documents
 permalink: website-change-log.html
-categories: [website]
+categories: [changelogs]
 toc: false
 summary: "Changes and modifications to the information found on this site."
 ---

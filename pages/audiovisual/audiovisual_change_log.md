@@ -7,7 +7,7 @@ topnav: topnav
 image_folder: images
 document_folder: documents
 permalink: audiovisual-change-log.html
-categories: hassio
+categories: [changelogs]
 toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---

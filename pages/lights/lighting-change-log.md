@@ -7,7 +7,7 @@ topnav: topnav
 image_folder: images
 document_folder: documents
 permalink: lighting-change-log.html
-categories: [lights]
+categories: [changelogs]
 toc: false
 summary: "A summary of changes made to the lighting system in the Sanctuary"
 ---

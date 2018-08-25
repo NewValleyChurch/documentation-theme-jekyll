@@ -7,7 +7,7 @@ topnav: topnav
 image_folder: images
 document_folder: documents
 permalink: building-and-facilities-change-log.html
-categories: building
+categories: [changelogs]
 toc: false
 summary: "Changes and updates, repairs, maintenance for the building and facilities."
 ---

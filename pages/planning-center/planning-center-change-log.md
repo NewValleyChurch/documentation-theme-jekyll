@@ -7,7 +7,7 @@ sidebar: main_sidebar
 topnav: topnav
 image_folder: images
 document_folder: documents
-categories: planning center
+categories: [changelogs]
 toc: false
 summary: "A list of changes to planning center in chronological order from newest to oldest."
 ---
