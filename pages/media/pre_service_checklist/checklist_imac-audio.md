@@ -7,6 +7,6 @@ folder: media
 categories: [checklist]
 toc: false
 ---
-
+{% page.last_modified_at %}
 {% include process_checklist.html %}
 {% include links.html %}
