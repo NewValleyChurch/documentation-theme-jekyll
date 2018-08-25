@@ -8,5 +8,3 @@ folder: categories
 toc: false
 ---
 {% include categorylogic.html %}
-
-{% include links.html %}
