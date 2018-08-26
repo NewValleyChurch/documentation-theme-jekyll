@@ -345,47 +345,6 @@ entries:
     output: web
     
     folderitems:
-    - title: Overview
-      url: /change-log-overview.html
+    - title: List of Change Logs
+      url: /category_changelogs.html
       output: web
-
-      subfolders:
-      - title: Change Log Categories
-        output: web
-        
-        subfolderitems:
-        - title: Building & Facilities
-          url: /building-and-facilities-change-log.html
-          output: web
-
-        - title: Network
-          url: /network-change-log.html
-          output: web
-
-        - title: Audio / Visual
-          url: /audiovisual-change-log.html
-          output: web
-
-        - title: Home Assistant
-          url: /hassio-change-log.html
-          output: web
-
-        - title: Lights
-          url: /lighting-change-log.html
-          output: web
-
-        - title: Media
-          url: /media-change-log.html
-          output: web
-
-        - title: Sound
-          url: /sound-change-log.html
-          output: web
-
-        - title: Planning Center
-          url: /planning-center-change-log.html
-          output: web
-
-        - title: This Website
-          external_url: /website-change-log.html
-          output: web
