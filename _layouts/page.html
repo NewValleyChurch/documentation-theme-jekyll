@@ -28,7 +28,7 @@ layout: default
 
 {% endif %}
 <div class="post-content">
-   {% include custom/last_updated.html %}
+    {{ page.last_modified_at }}
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}

@@ -2,25 +2,26 @@
 search: exclude
 layout: none
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
- <channel>
-  <title>{{ site.title  | xml_escape }}</title>
-  <description>Test Feed</description>
-     <atom:link href="{{ site.url }}/feed.audio-visual-change-log.xml" rel="self" type="application/rss+xml" />
-  <link>{{ site.url }}</link>
-  <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-  {% for page in site.pages %}
-   {% if page.title  == 'Audio Visual Change Log' %}
-   <item>
-    <title>{{ page.title | xml_escape }}</title>
-    <description>{{ page.content | xml_escape }}</description>
-    <link>{{ site.url }}{{ page.url }} </link>
-    <source url="{{ site.url }}{{ page.url }}">New Valley Resources - Audio Visual Change Log</source>
-    <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
-   </item>
-   {% endif %}
-  {% endfor %}
- </channel>
+<channel>
+<title>{{ site.title | xml_escape }}</title>
+<description>{{ site.description | xml_escape }}</description>
+<link>{{ site.url }}/</link>
+<atom:link href="{{ "/feed.audio-visual-change-log.xml" | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+<generator>Jekyll v{{ jekyll.version }}</generator>
+{% assign pages = site.pages | where: 'title','Audio Visual Change Log' %}
+{% for page in pages %}
+<item>
+<title>{{ page.title | xml_escape }}</title>
+<description>{{ page.content | strip_html | truncatewords:50 }}</description>
+<pubDate>{{ page.last_modified_at | date_to_rfc822 }}</pubDate>
+<link>{{ page.url | prepend: site.url }}</link>
+<source url="{{ site.url }}/feed.{{ page.permalink | remove: '.html' }}.xml">Audio Visual Change Log</source>
+<guid isPermaLink="true">{{ page.url | prepend: site.url }}</guid>
+</item>
+{% endfor %}
+</channel>
 </rss>

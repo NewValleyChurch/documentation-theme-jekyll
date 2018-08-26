@@ -13,6 +13,8 @@ folder: lights
 categories: lighting
 ---
 
+{% include important.html content="The DMXIS interface and technology has been removed from the system and no longer applies." %}
+
 # Hardware
 
 The [DMXIS](/DMXIS.html) is a hardware interface that connects to the media computer via USB.  It allows transmission of DMX512 protocol data without the need for a dedicated lighting console.  The computer becomes the lighting console.
@@ -35,6 +37,6 @@ The [DMXIS](/DMXIS.html) is a hardware interface that connects to the media comp
 
 [DMXIS](/DMXIS.html) can also be dropped into a DAW, like Ableton Live.  When operating inside of a DAW, the midi mappings are unique to the DAW and are not directly connecting to the [DMXIS](/DMXIS.html) software.  Inside of Ableton, we map functions on the [DMXIS](/DMXIS.html) to Ableton, then we assign those functions to MIDI signals.
 
-**Note: [DMXIS](/DMXIS.html) will only operate in one of those modes at a given time.  The first instance of [DMXIS](/DMXIS.html) that is opened is the one that takes control.  If you open [DMXIS](/DMXIS.html) from the OSX Dock at the bottom of the screen you lose the ability to control the lights with the MIDI mapped faders on the QU-32.  
+**Note: [DMXIS](/DMXIS.html) will only operate in one of those modes at a given time.  The first instance of [DMXIS](/DMXIS.html) that is opened is the one that takes control.  If you open [DMXIS](/DMXIS.html) from the OSX Dock at the bottom of the screen you lose the ability to control the lights with the MIDI mapped faders on the QU-32.**  
 
-Only ONE instance of [DMXIS](/DMXIS.html) can actually be used, and it's the first one that gets loaded.**
+**Only ONE instance of [DMXIS](/DMXIS.html) can actually be used, and it's the first one that gets loaded.**

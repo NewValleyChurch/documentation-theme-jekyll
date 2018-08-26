@@ -8,24 +8,19 @@ layout: none
  <channel>
   <title>{{ site.title  | xml_escape }}</title>
   <description>Test Feed</description>
-     <atom:link href="{{ site.url }}/pagefeed.xml" rel="self" type="application/rss+xml" />
+     <atom:link href="{{ site.url }}/feed.test.xml" rel="self" type="application/rss+xml" />
   <link>{{ site.url }}</link>
   <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
   {% for page in site.pages %}
-  {% assign last_modified = page.last_modified_at %}
-  {% for item in last_modified %}
-  {{item}}
-
-
+   {% if page.title  == 'Test Page Feed' %}
    <item>
     <title>{{ page.title | xml_escape }}</title>
-    <description>{{ page.content | xml_escape | strip_html | truncatewords:50 }}</description>
+    <description>{{ page.content | xml_escape }}</description>
     <link>{{ site.url }}{{ page.url }} </link>
-    <source url="{{ site.url }}{{ page.url }}">New Valley Resources - {{page.title}}</source>
+    <source url="{{ site.url }}{{ page.url }}">New Valley Resources - Test Page Feed</source>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
- {% endfor %}
+   {% endif %}
   {% endfor %}
-  
  </channel>
 </rss>

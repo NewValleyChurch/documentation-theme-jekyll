@@ -1,0 +1,54 @@
+    {% raw %}
+    {% assign page_list = site.pages %}
+
+    {{page_list[0]}}
+
+    <table>
+        {% for item in page_list[0] %}
+        {% if item[0] == 'last_modified_at' %}
+        <tr>
+            <td>
+                {{item[0]}}
+            </td>
+            <td>
+                {{item[1]}}
+            </td>
+        </tr>
+    {% endif %}
+    {% endfor %}
+    </table>
+    {% endraw %}
+
+
+
+
+{% assign page_list = site.pages %}
+
+## Data Contents of First Page in Jekyll Site
+
+{{page_list[0]}}
+
+## How the data is displayed when called in a for loop.  This has been filtered to only show the problem field "last_modified_at"
+
+**Notice that the result of item[1] is the date that the document was last updated.  This date is calculated on the fly and reported, so I'm unable to use the following:
+    {% raw %}
+    {% assign page_list = site.pages | sort: 'last_modified_at' %}
+    {% endraw %}
+
+The goal is to create a new hash that already contains the date modified as a stored value so it can be a sortable field in the next for loop.
+
+<table>
+    {% for item in page_list[0] %}
+    {% if item[0] == 'last_modified_at' %}
+    <tr>
+        <td>
+            {{item[0]}}
+        </td>
+        <td>
+            {{item[1]}}
+        </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>
+

@@ -7,10 +7,14 @@ topnav: topnav
 image_folder: images
 document_folder: documents
 permalink: building-and-facilities-change-log.html
-categories: hassio
+categories: [changelogs]
 toc: false
 summary: "Changes and updates, repairs, maintenance for the building and facilities."
 ---
+
+## 7-27-2018
+
+-	// Strange water valve noise above FOH in the sanctuary at 9:53AM.  Sounded like a hose being turned on.  It ran for a few minutes then stopped.  Also sounded like a water valve in an evap cooler would sound.
 
 ## 7-7-11
 

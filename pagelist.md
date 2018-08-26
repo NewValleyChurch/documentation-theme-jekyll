@@ -10,7 +10,4 @@ document_folder: documents
 categories: general
 toc: false
 ---
-
-{% for page in site.pages %}
-{{ site.url }}{{ page.url }}
-{% endfor %}
+{% include pagelist.html %}
