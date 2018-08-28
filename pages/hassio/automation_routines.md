@@ -98,21 +98,21 @@ The following are the currently configured automations.
 
 1. Sunday Morning Cooldown
   - **Name**: "Sunday Morning Cooldown"
-  - **Trigger**: There are two triggers.
-    - Trigger 1: 6AM in the morning.
-    - Trigger 2: When the system detects that someone is in the building through mobile device tracking.
-  - **Condition**: It must be Sunday.
+  - **Trigger**: There are two triggers.  
+      - Trigger 1: 6AM in the morning.
+      - Trigger 2: When the system detects that someone is in the building through mobile device tracking.
+  - **Condition**: It must be Sunday.  
   - **Action**: Two scripts.
-    - Script 1: `script.sunday_morning_ac`
-    - Script 2: `script.thermostat_timer`
+      - Script 1: `script.sunday_morning_ac`
+      - Script 2: `script.thermostat_timer`
   - **Purpose**: To ensure that we have adequate cooling for the duration of rehearsal and both services on Sunday morning.
 
 1. Set Sanctuary AC Level
   - **Trigger**: Manual input of the Sanctuary Master A/C temperature slider.
   - **Condition**: No conditions.
   - **Action**: When the value is changed, two scripts are run.
-    - Script 1: Set all sanctuary thermostats to the same level as the input value selected. `script.set_all_sanctuary_thermostats`
-    - Script 2: Start the thermostat countdown timer.  `script.thermostat_timer.`
+      - Script 1: Set all sanctuary thermostats to the same level as the input value selected. `script.set_all_sanctuary_thermostats`  
+      - Script 2: Start the thermostat countdown timer.  `script.thermostat_timer.`  
   - **Purpose**: A single control to set all 5 of the thermostats rather than setting each one.
 
 1. The following 7 automations are what run when the temperature settings are adjusted in Home Assistant.
