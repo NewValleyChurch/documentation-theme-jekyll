@@ -16,7 +16,7 @@ summary: "A step by step guide to adding a song to Planning Center and preparing
 
 You need the following information about the song before proceeding:
 
-- The [CCLI#](https://us.search.ccli.com/) of the song.  If there isn't a CCLI#, you'll follow a different process.
+- The [CCLI#](https://us.search.ccli.com/) of the song.  If there isn't a CCLI#, you'll follow a different process, which [hasn't been written yet](brokenlink.html)
 - The length of the original recording in minutes and seconds.
 - The starting key of the original recording, or the key of the original song if it was recorded in a different key than written.
 - The ending key if the song changes keys in the middle.
