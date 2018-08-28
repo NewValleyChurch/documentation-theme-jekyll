@@ -56,13 +56,13 @@ The following are the currently configured automations.
 
 # HVAC / Air Conditioning System
 
-1. Set Sanctuary Thermostat when Jon's iPhone is detected in the building.
+1. Set Sanctuary Thermostat when Jon's iPhone is detected in the building.  
   - **Name**: "Set Thermostat iPhone"
   - **Trigger:** State.  The state of the device.  Either `home` or `away`.  When the state changes `to` the value `home`.
   - **Condition**: No conditions.
   - **Action**: Set the main Sanctuary A/C input value to 73.
 
-1. Set Thermostat Timer to 6 Hours for Sunday Morning
+1. Set Thermostat Timer to 6 Hours for Sunday Morning  
   - **Name**: "Set Thermostat Timer to 6 Hours"
   - **Trigger**: Time.  At one second past midnight.
   - **Conditions**: Only happens on Sunday
@@ -76,44 +76,44 @@ The following are the currently configured automations.
   - **Purpose**: To start a countdown timer for the A/C system shut-down routine.
 
 1. Track Thermostat timer Expiration
-  -**Name:**: "Thermostat Timer Expired"
-  -**Trigger**: When the timer `timer.thermostat_timer` reaches zero.
-  -**Condition**: Any day but Sunday (Day 6 when counting from zero to 6)
-  -**Action**: Run Script.  `script.reset_thermostats`
-  -**Purpose**: To make sure that the A/C isn't running when nobody is here.
+  - **Name:**: "Thermostat Timer Expired"
+  - **Trigger**: When the timer `timer.thermostat_timer` reaches zero.
+  - **Condition**: Any day but Sunday (Day 6 when counting from zero to 6)
+  - **Action**: Run Script.  `script.reset_thermostats`
+  - **Purpose**: To make sure that the A/C isn't running when nobody is here.
 
 1. Reset Thermostats every Day Except Sunday
-  -**Name:** Reset Thermostats Daily
-  -**Trigger**: 10PM.
-  -**Condition**: Every day but Sunday.
-  -**Action**: Reset the thermostats to the default value.
-  -**Purpose**: To ensure that the units are set to the default value every day.
+  - **Name:** Reset Thermostats Daily
+  - **Trigger**: 10PM.
+  - **Condition**: Every day but Sunday.
+  - **Action**: Reset the thermostats to the default value.
+  - **Purpose**: To ensure that the units are set to the default value every day.
 
 1. Start Thermostat timer automatically when nobody is here.
-  -**Name**: "Thermostat timer Start When Nobody Home"
-  -**Trigger**: When the system detects that all registered devices are no longer in the building.  Dependent up on whether or not someone's phone has been added to the system.
-  -**Condition**: Only happens if the Main Sanctuary Thermostat setting isn't already 85.
-  -**Action**: Script runs.  `script.thermostat_timer`.
-  -**Purpose**: To ensure that the A/C will be reset to default values when the timer reaches zero.  In order for that to happen, the timer must be running, so this automation ensures the timer starts for a full cycle.
+  - **Name**: "Thermostat timer Start When Nobody Home"
+  - **Trigger**: When the system detects that all registered devices are no longer in the building.  Dependent up on whether or not someone's phone has been added to the system.
+  - **Condition**: Only happens if the Main Sanctuary Thermostat setting isn't already 85.
+  - **Action**: Script runs.  `script.thermostat_timer`.
+  - **Purpose**: To ensure that the A/C will be reset to default values when the timer reaches zero.  In order for that to happen, the timer must be running, so this automation ensures the timer starts for a full cycle.
 
 1. Sunday Morning Cooldown
-  -**Name**: "Sunday Morning Cooldown"
-  -**Trigger**: There are two triggers.
+  - **Name**: "Sunday Morning Cooldown"
+  - **Trigger**: There are two triggers.
     - Trigger 1: 6AM in the morning.
     - Trigger 2: When the system detects that someone is in the building through mobile device tracking.
-  -**Condition**: It must be Sunday.
-  -**Action**: Two scripts.
+  - **Condition**: It must be Sunday.
+  - **Action**: Two scripts.
     - Script 1: `script.sunday_morning_ac`
     - Script 2: `script.thermostat_timer`
-  -**Purpose**: To ensure that we have adequate cooling for the duration of rehearsal and both services on Sunday morning.
+  - **Purpose**: To ensure that we have adequate cooling for the duration of rehearsal and both services on Sunday morning.
 
 1. Set Sanctuary AC Level
-  -**Trigger**: Manual input of the Sanctuary Master A/C temperature slider.
-  -**Condition**: No conditions.
-  -**Action**: When the value is changed, two scripts are run.
+  - **Trigger**: Manual input of the Sanctuary Master A/C temperature slider.
+  - **Condition**: No conditions.
+  - **Action**: When the value is changed, two scripts are run.
     - Script 1: Set all sanctuary thermostats to the same level as the input value selected. `script.set_all_sanctuary_thermostats`
     - Script 2: Start the thermostat countdown timer.  `script.thermostat_timer.`
-  -**Purpose**: A single control to set all 5 of the thermostats rather than setting each one.
+  - **Purpose**: A single control to set all 5 of the thermostats rather than setting each one.
 
 1. The following 7 automations are what run when the temperature settings are adjusted in Home Assistant.
   - Sanctuary NE
@@ -123,6 +123,6 @@ The following are the currently configured automations.
   - Sanctuary W
   - Living Room
   - Main Foyer
-  -**Trigger**: When the main sanctuary input number is changed.
-  -**Action**: The temperature setting is transmitted to IFTTT and then to MyTotalComfortConnect.com for EACH thermostat.  MyTotalComfortConnect.com then remotely sets the thermostats in the building.
+  - **Trigger**: When the main sanctuary input number is changed.
+  - **Action**: The temperature setting is transmitted to IFTTT and then to MyTotalComfortConnect.com for EACH thermostat.  MyTotalComfortConnect.com then remotely sets the thermostats in the building.
 
