@@ -100,11 +100,11 @@ The following are the currently configured automations.
   - **Name**: "Sunday Morning Cooldown"
   - **Trigger**: There are two triggers.  
       - Trigger 1: 6AM in the morning.
-      - Trigger 2: When the system detects that someone is in the building through mobile device tracking.
+      - Trigger 2: When the system detects that someone is in the building through mobile device tracking.  
   - **Condition**: It must be Sunday.  
-  - **Action**: Two scripts.
+  - **Action**: Two scripts.  
       - Script 1: `script.sunday_morning_ac`
-      - Script 2: `script.thermostat_timer`
+      - Script 2: `script.thermostat_timer`  
   - **Purpose**: To ensure that we have adequate cooling for the duration of rehearsal and both services on Sunday morning.
 
 1. Set Sanctuary AC Level
