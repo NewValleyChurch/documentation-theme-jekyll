@@ -45,7 +45,7 @@ We do this to ensure that the underlying audio files have names that make sense 
 
 ### Move the Clips to Session View
 
-{% include alert.html content="If you intend to do any automation to the arrangement, such as individual track volume control, muting or unmuting a specific section of a part, etc., do it now so the clips will carry over to your template." %}
+{% include important.html content="If you intend to do any automation to the arrangement, such as individual track volume control, muting or unmuting a specific section of a part, etc., do it now so the clips will carry over to your template." %}
 
 {% include note.html content="When you consolidate a single clip or multiple clips into single clips, Ableton writes a new version of the audio file to the current project's Samples folder.  That means that if you were to consolidate any split tracks from this set in your own template, new samples will be created and you'll find that your set has samples from both the original MultiTracks project _and_ your project.  This can get messy, so be intentional about consolidation of clips." %}
 
