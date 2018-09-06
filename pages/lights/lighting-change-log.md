@@ -28,4 +28,4 @@ summary: "A summary of changes made to the lighting system in the Sanctuary"
 -	// Acquired Zip ties to secure power and dmx cabling.
 -	// Acquired male and female XLR ends for DMX cabling.
 -	// All 4 Chauvet lights have been received.
-
+-	// Received 8 clamps for moving heads.
