@@ -8,7 +8,7 @@
 {% endif %}
 <p class="post-meta">
   <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-    Published on: {{ page.date | date: "%b %-d, %Y" }}</br>
+    Published on: {{ page.date | date: "%b %-d, %Y" }}
   </time>
 
   {% if page.categories != null %}| Category:
@@ -18,7 +18,7 @@
         <a href="{{ "category_" | append: category | append: ".html"}}">
           {{category}}
         </a>
-        {% if category == 'audiovisual' %}yes{% else %}No{% endif %}
+        {% if category == 'audiovisual' %}</br><a href="{{ category | append: "-change-log.html"}}>Audio Visual Change Log</a>{% else %}{% endif %}
       {% unless forloop.last %},
       {% endunless%}
       {% endif %}
