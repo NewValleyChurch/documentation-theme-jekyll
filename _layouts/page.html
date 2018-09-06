@@ -28,8 +28,7 @@ layout: default
 
 {% endif %}
 <div class="post-content">
-    {{ page.last_modified_at }}
-    {% last_modified_at %}
+    {{ page.last_modified_at | date: "%m %d, %Y" }}
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}
