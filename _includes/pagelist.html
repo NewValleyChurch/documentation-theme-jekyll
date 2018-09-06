@@ -37,8 +37,7 @@
 The goal is to create a new hash that already contains the date modified as a stored value so it can be a sortable field in the next for loop.
 
 <table>
-    {% for item in page_list[0] %}
-    {% if item[0] == 'last_modified_at' %}
+    {% for item in page_list %}
     <tr>
         <td>
             {{item[0]}}
