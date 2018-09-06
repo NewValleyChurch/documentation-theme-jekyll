@@ -37,15 +37,19 @@
 The goal is to create a new hash that already contains the date modified as a stored value so it can be a sortable field in the next for loop.
 
 <table>
-    {% for item in page_list %}
+    {% assign i = 0 %}
+    {% for page in page_list %}
     <tr>
+        {% for item in page_list[i] %}
         <td>
             {{item[0]}}
         </td>
         <td>
             {{item[1]}}
         </td>
+        {% endfor %}
     </tr>
+    {% assign i = i | plus:1 %}
     {% endfor %}
 </table>
 
