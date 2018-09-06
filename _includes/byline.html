@@ -9,7 +9,6 @@
 <p class="post-meta">
   <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
     Published on: {{ page.date | date: "%b %-d, %Y" }}</br>
-    Revised as of: {% last_modified_at %}
   </time>
 
   {% if page.categories != null %}| Category:
@@ -19,6 +18,7 @@
         <a href="{{ "category_" | append: category | append: ".html"}}">
           {{category}}
         </a>
+        {% if category == 'audiovisual' %}yes{% else %}No{% endif %}
       {% unless forloop.last %},
       {% endunless%}
       {% endif %}
