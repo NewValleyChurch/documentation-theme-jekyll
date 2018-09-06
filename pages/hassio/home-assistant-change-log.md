@@ -7,15 +7,19 @@ topnav: topnav
 image_folder: images
 document_folder: documents
 permalink: home-assistant-change-log.html
-categories: [hassio, automation]
+categories: [changelogs]
 toc: false
 summary: "A list of changes to HASSIO automation system."
 ---
 
+## 8-24-2018
+
+-	// Installed DB Browser for SQLite to report on and access Home Assistant Data
+
 ## 7-31-2018
 
 -	// Installed ArtNet support for HASS.IO and connected to new Enttec ODE Mk2 Ethernet to DMX device.
--	// Programmed Home Assistant to automatically turn house lights on when motion is detected at the center doors at the back of the sanctuary.
+-	// Programmed Home Assistant to automatically turn house lights on when motion is detected at the center doors at the back of the sanctuary...
 
 ## 7-30-2018
 

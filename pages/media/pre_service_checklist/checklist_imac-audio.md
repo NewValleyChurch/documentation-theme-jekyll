@@ -4,6 +4,7 @@ keywords: imac, audio
 sidebar: main_sidebar
 permalink: checklist-imac-audio.html
 folder: media
+categories: [checklist]
 toc: false
 ---
 

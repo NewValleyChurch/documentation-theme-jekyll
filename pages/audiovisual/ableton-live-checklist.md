@@ -6,7 +6,9 @@ sidebar: main_sidebar
 topnav: topnav
 image_folder: images
 document_folder: documents
+tags: [how to, ableton, recording]
 permalink: ableton-live-setup-checklist.html
+categories: [ableton, sermon, recording, howto]
 summary: "Basic setup instructions for Sunday Morning sermon / input recording."
 ---
 
