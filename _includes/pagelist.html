@@ -4,8 +4,7 @@
     {{page_list[0]}}
 
     <table>
-        {% for item in page_list[0] %}
-        {% if item[0] == 'last_modified_at' %}
+        {% for item in page_list %}
         <tr>
             <td>
                 {{item[0]}}
