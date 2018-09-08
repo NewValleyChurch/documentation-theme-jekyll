@@ -3,13 +3,6 @@ search: exclude
 layout: none
 ---
 
-{% assign changelog = site.pages | where:"title","Audio Visual Change Log" %}
-{% for page in changelog %}
-{{page.title}}
-{% endfor %}
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
@@ -18,14 +11,15 @@ layout: none
      <atom:link href="{{ site.url }}/feed.audiovisual.xml" rel="self" type="application/rss+xml" />
   <link>{{ site.url }}</link>
   <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-  {% for post in site.categories.audiovisual limit:10 %}
+    {% assign changelog = site.pages | where:"title","Audio Visual Change Log" %}
+    {% for page in changelog %}
    <item>
-    <title>{{ post.title | xml_escape }}</title>
-    <description>{{ post.content | strip_html | truncatewords:50 }}</description>
+    <title>{{ page.title | xml_escape }}</title>
+    <description>{{ page.content | strip_html | truncatewords:50 }}</description>
     <link>{{ site.url }}{{ post.url }}</link>
     <source url="{{site.url}}{{post.url}}">{{ post.title }}</source>
-    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-    <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+    <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
+    <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
   {% endfor %}
  </channel>
