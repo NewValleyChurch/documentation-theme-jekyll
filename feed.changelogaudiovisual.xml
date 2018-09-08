@@ -16,8 +16,8 @@ layout: none
    <item>
     <title>{{ page.title | xml_escape }}</title>
     <description>{{ page.content | strip_html | truncatewords:50 }}</description>
-    <link>{{ site.url }}{{ post.url }}</link>
-    <source url="{{site.url}}{{post.url}}">{{ post.title }}</source>
+    <link>{{ site.url }}{{ page.url }}</link>
+    <source url="{{site.url}}{{page.url}}">{{ page.title }}</source>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
