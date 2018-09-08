@@ -14,7 +14,7 @@ summary: "Basic setup instructions for Sunday Morning sermon / input recording."
 
 {% include note.html content="These are very basic setup instructions for our current environment.  Future evolutions may include more detailed setup and functionality." %}
 
-## Step by Step Guide
+## Step by Step Guide (Test)
 
 - Make sure that the QU-32 mixing console is on and connected to the iMac.
 - Confirm that the iMac's `input` is set to QU-32.  To do this, on the keyboard, hold down the Option key, then click the speaker icon in the status bar at the top right-hand side of the screen.
