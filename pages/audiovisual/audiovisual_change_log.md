@@ -12,7 +12,7 @@ toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---
 
-## 8-21-2018 (Testing)
+## 8-21-2018
 
 -	// Installed a program called Splice on MediaOne.  Splice is a collaboration tool for audio creatives that allows us to seamlessly keep the Ableton Sets synchronized between one or more computers running Ableton Live.  **Note, when using Splice to open an Ableton File, ensure that no other computer is already logged in to Splice.**
 
