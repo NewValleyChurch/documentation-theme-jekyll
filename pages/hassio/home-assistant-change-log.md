@@ -12,6 +12,13 @@ toc: false
 summary: "A list of changes to HASSIO automation system."
 ---
 
+## 9-4-2018
+
+-	// Renamed Sanctuary N2 thermostat to Main Foyer (mytotalconnectcomfort.com)
+-	// Renamed Main Foyer thermostat to Sanctuary N2. (mytotalconnectcomfort.com)
+-	// Swapped Thermostats from Sanctuary to the Main Foyer.
+-	// Reprogrammed automation to know the difference.  Foyer thermostat WIFI card may be defective.	  
+
 ## 8-24-2018
 
 -	// Installed DB Browser for SQLite to report on and access Home Assistant Data
