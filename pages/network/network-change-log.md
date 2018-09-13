@@ -1,7 +1,7 @@
 ---
-title: Network Change Log
+title: Network and Computer Change Log
 layout: page
-permalink: network-change-log.html
+permalink: network-computer-change-log.html
 comments: true
 sidebar: main_sidebar
 topnav: topnav
@@ -11,9 +11,14 @@ categories: [changelogs]
 toc: false
 ---
 
+## 9-12-2018
+
+-	// Reconfigured Amanda's workstation so it doesn't disconnect from the network when the system sleeps.  No longer inaccessible via VNC.
+
 ## 7-20-2018
 
 -	// Installed [QLC+ by Massimo Callegari](http://www.qlcplus.org/downloads.html) for lighting control to replace the DMXIS software and provide a better control system for lighting.
 
 ## 6-21-18
-- Updated MobileOne iPad operating system to iOS 11.4
+
+- 	// Updated MobileOne iPad operating system to iOS 11.4
