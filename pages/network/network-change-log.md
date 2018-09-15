@@ -11,6 +11,10 @@ categories: [changelogs]
 toc: false
 ---
 
+## 9-13-2018
+
+-	// Installed Draw.io on MediaOne as a desktop solution for diagrams rather than using the online version.
+
 ## 9-12-2018
 
 -	// Reconfigured Amanda's workstation so it doesn't disconnect from the network when the system sleeps.  No longer inaccessible via VNC.
