@@ -12,6 +12,19 @@ toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---
 
+## 9-15-2018
+
+-	// Installed iLok License Manager on MediaOne to authorize various plugins for Ableton Live.
+-	// Installed a few Ableton Live instrument plug-ins on MediaOne.
+-	// Configured QLC+ chasers to contain wall wash for stage left and right side wings.
+
+## 9-14-2018
+
+-	// Elation OPTI RGBA lights that were previously flown over the apron of the stage have been moved to wash the walls of the storage wings.
+-	// Ran 12/3 300V SJOOW power to all four lights.  One fixture has not yet been mounted and the remaining MEGA-LITE Cool White and Warm White fixtures have not been flown.
+-	// Installed diffusers on each of the 4 lights to widen the beam angle.
+-	// Ran DMX from the splitter to both sets of lights.
+
 ## 9-10-2018
 
 -	// Mounted DMX 6-Way splitter near power source on beam in sanctuary, stage right.
