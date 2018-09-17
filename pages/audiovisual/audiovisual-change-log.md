@@ -12,6 +12,12 @@ toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---
 
+## 9-17-2018
+
+-	// Chauvet IRC450 Wash and 350Z Spots were flown on the FOH lighting pipe.  Power and DMX to be run tomorrow (9-18-2018).  The moving heads require a remote switching power source as they're "always on" if they're plugged into a power source.  The only solutions are to either kill the breaker to shut down the power when they're not in use, or wire up a switch to the circuit.  Another option is to wire up a wireless 4-channel relay power distribution block.  That is what will be happening which will ensure that the units are only on when they need to be on.
+-	// Inventoried the Wash lights in the database.
+-	// Tested the concept of having a black background on the rear projection wall from the bottom of the projection screen to the floor.  There are mixed emotions about it, so we'll put that idea on the back-burner for now.
+
 ## 9-15-2018
 
 -	// Installed iLok License Manager on MediaOne to authorize various plugins for Ableton Live.
