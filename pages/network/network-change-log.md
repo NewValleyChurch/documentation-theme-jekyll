@@ -11,6 +11,10 @@ categories: [changelogs]
 toc: false
 ---
 
+## 9-19-2018
+
+-	// Installed Atom.io on MediaOne to facilitate hardware flashing of Sonoff WIFI switching relays.
+
 ## 9-13-2018
 
 -	// Installed Draw.io on MediaOne as a desktop solution for diagrams rather than using the online version.

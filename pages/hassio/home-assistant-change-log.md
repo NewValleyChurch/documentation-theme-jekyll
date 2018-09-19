@@ -9,10 +9,14 @@ document_folder: documents
 permalink: home-assistant-change-log.html
 categories: [changelogs]
 toc: false
-summary: "A list of changes to HASSIO automation system."
+summary: "Home Assistant is a powerful automation system that runs on a small micro-computer.  It integrates with almost any electronic device that is connected to the network, whether it be the WIFI network, or a Zwave network.  It is responsible for automating the A/C units in the Sanctuary, lighting, presence detection, etc."
 ---
 ## 9-19-2018
 
+-	// Configured Home Assistant to recognize Sonoff 4CH Relay Switch.  Device can now be controlled remotely and scripted for automation.
+-	// Flashed Tasmoto firmware to Sonoff 4CH Pro 2 Relay Switch.  This relay switch will be used to remotely control and automate the power source to the moving head lighting fixtures in the sanctuary.
+-	// Tested Slack notification integration.  :thumbsup:
+-	// Added Slack integration to Home Assistant to enable automation of status messages and updates to change logs.
 -	// Added the DarkSky component to Home Assistant to track local weather conditions in preparation to better automate the cliate control system in the sanctuary.
 -	// Added two sensors to the dashboard in Home Assistant.  1) Outside Temperature, 2) Outside Humidity.
 
