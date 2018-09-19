@@ -11,6 +11,10 @@ categories: [changelogs]
 toc: false
 summary: "A list of changes to HASSIO automation system."
 ---
+## 9-19-2018
+
+-	// Added the DarkSky component to Home Assistant to track local weather conditions in preparation to better automate the cliate control system in the sanctuary.
+-	// Added two sensors to the dashboard in Home Assistant.  1) Outside Temperature, 2) Outside Humidity.
 
 ## 9-4-2018
 

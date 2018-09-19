@@ -1,0 +1,26 @@
+---
+search: exclude
+layout: none
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+  <title>{{ site.title  | xml_escape }}</title>
+  <description>Home Assistant Change Log</description>
+     <atom:link href="{{ site.url }}/feed.changloghomeassistant.xml" rel="self" type="application/rss+xml" />
+  <link>{{ site.url }}</link>
+  <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    {% assign changelog = site.pages | where:"title","Home Assistant Change Log" %}
+    {% for page in changelog %}
+   <item>
+    <title>{{ page.title | xml_escape }}</title>
+    <description>{{ page.content | strip_html | truncatewords:50 }}</description>
+    <link>{{ site.url }}{{ page.url }}</link>
+    <source url="{{site.url}}{{page.url}}">{{ page.title }}</source>
+    <pubDate>{{ page.date }} or {{ post.date }}</pubDate>
+    <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
+   </item>
+  {% endfor %}
+ </channel>
+</rss>

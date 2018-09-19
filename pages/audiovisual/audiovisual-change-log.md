@@ -12,6 +12,10 @@ toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---
 
+## 9-18-2018
+
+-	// Added additional Harmony 650 Remote Control to the Kids Building.  Programming is copied from the other 650 remote that makes its home in the Living Room.  Both remotes do the same thing, but one is labeled Kids Building.
+
 ## 9-17-2018
 
 -	// Chauvet IRC450 Wash and 350Z Spots were flown on the FOH lighting pipe.  Power and DMX to be run tomorrow (9-18-2018).  The moving heads require a remote switching power source as they're "always on" if they're plugged into a power source.  The only solutions are to either kill the breaker to shut down the power when they're not in use, or wire up a switch to the circuit.  Another option is to wire up a wireless 4-channel relay power distribution block.  That is what will be happening which will ensure that the units are only on when they need to be on.
