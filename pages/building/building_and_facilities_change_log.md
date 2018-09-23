@@ -12,6 +12,10 @@ toc: false
 summary: "Changes and updates, repairs, maintenance for the building and facilities."
 ---
 
+## 9-22-2018
+
+-	// Hung new dry erase board in room #1.
+
 ## 7-27-2018
 
 -	// Strange water valve noise above FOH in the sanctuary at 9:53AM.  Sounded like a hose being turned on.  It ran for a few minutes then stopped.  Also sounded like a water valve in an evap cooler would sound.
