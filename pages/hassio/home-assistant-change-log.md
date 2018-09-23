@@ -11,6 +11,19 @@ categories: [changelogs]
 toc: false
 summary: "Home Assistant is a powerful automation system that runs on a small micro-computer.  It integrates with almost any electronic device that is connected to the network, whether it be the WIFI network, or a Zwave network.  It is responsible for automating the A/C units in the Sanctuary, lighting, presence detection, etc."
 ---
+## 9-22-2018
+
+-	// Added the `feedreader` component to Home Assistant to monitor RSS feeds on `newvalleyresources.com`.  Home Assistant checks each feed every 15 minutes for new content.  If there is new content, an event is logged which can be used to trigger any automation in the system.  Primarily, this will be used to trigger messaging systems such as Slack.com to notify subscribers of the updates to the website.
+
+## 9-21-2018
+
+-	// Added the Sonoff 4ch WIFI Relay to Home Assistant configuration.  Relay switches are `switch` components and are named after the type of lighting fixture and the position of the light.  In HA, the lights are as follows:  
+
+    - switch.375Z_IRC_Stage_Right | switch.375Z_IRC_Stage_Right | switch.Wash_Zoom_450_IRC_v2_stage_left | switch.Wash_Zoom_450_IRC_v2_stage_right
+
+-	// Rewired the Sonoff 4CH relay.  Circuit breaker 27 controls the power to these 4 fixtures through 10 AMP relays.  The circuit is a 20AMP circuit but each relay can handle 10A.  Each fixture draws a maximum of approximately 250 Watts, so there's plenty of head-room on the circuit to handle all four fixtures simultaneously.
+-	// 
+
 ## 9-19-2018
 
 -	// Configured Home Assistant to recognize Sonoff 4CH Relay Switch.  Device can now be controlled remotely and scripted for automation.
