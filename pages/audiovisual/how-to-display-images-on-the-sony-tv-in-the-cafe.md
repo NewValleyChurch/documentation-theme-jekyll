@@ -30,5 +30,5 @@ There is a media browser that gives you access to the media served by Serviio.  
 -  On the TV, if it's not automatically playing, select the appropriate input and media source, and then drill down to the `TV Loop` folder until you find the content you want to cycle through.  
 -  Start the slide show (Press 'C' on the remote's screen.)
 
-{% include info.html content="The images in this folder should not be considered originals.  This is an endpoint for images that are created from masters that should be stored in a different location to preserve the original.  Following that practice, you'll know that it's safe to delete images permanently from the TV Loop folder when it's time to retire them, unless they need to be archived for future TV Loop usage." %}
+{% include tip.html content="The images in this folder should not be considered originals.  This is an endpoint for images that are created from masters that should be stored in a different location to preserve the original.  Following that practice, you'll know that it's safe to delete images permanently from the TV Loop folder when it's time to retire them, unless they need to be archived for future TV Loop usage." %}
 
