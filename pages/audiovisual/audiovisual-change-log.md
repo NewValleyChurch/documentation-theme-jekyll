@@ -12,6 +12,12 @@ toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---
 
+## 9-24-2018
+
+-	// Installed Serviio Media Server on MediaOne.  Serviio Basic is a free DLNA media server that is recognized by devices that are DLNA compatible, like Media Players (TV's).  In this particular example, the Aquos TV in the Cafe can be served by media on a DLNA server, eliminating the need to copy media to a USB thumb-drive every time we want to update it.  
+-	// Configured Aquos TV in Cafe to work with Serviio Media Server.
+-	// Created `TV Loop` folder in the following path: `/Volumes/Blue/ProPresenter/Images/Photo Galleries/TV Loop`.  Any image added to this folder can be displayed on the TV as part of a rotating slide show.
+
 ## 9-18-2018
 
 -	// Added additional Harmony 650 Remote Control to the Kids Building.  Programming is copied from the other 650 remote that makes its home in the Living Room.  Both remotes do the same thing, but one is labeled Kids Building.
