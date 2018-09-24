@@ -1,5 +1,5 @@
 ---
-title: How To: Display Rotating Slide Show on Sharp Aquos TV in Cafe
+title: How To\: Display Rotating Slide Show on Sharp Aquos TV in Cafe
 layout: page
 categories: [media,audiovisual]
 permalink: how-to-display-images-on-the-sharp-tv-in-the-cafe.html
