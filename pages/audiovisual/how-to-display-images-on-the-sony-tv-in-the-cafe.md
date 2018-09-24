@@ -12,7 +12,9 @@ document_folder: documents
 summary: "This How To document will explain how to display images on the Aquos TV in the Cafe area in a rotating slide show without using a USB stick."
 ---
 
-Using a free program called Serviio, which has been installed on MediaOne, we can now point to any network shared folder to create a repository that the TV can access.
+Using a free program called Serviio, which has been installed on MediaOne, we can now point to any network shared folder to create a repository that the TV can access.  
+
+The following will explain what we need to do that, and how to make it happen.
 
 ## Pre-Requisites:
 
