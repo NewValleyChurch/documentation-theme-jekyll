@@ -14,7 +14,7 @@ summary: "This How To document will explain how to display images on the Aquos T
 
 Using a free program called Serviio, which has been installed on MediaOne, we can now point to any network shared folder to create a repository that the TV can access.
 
-## Pre-Requisites
+## Pre-Requisites:
 
 - Serviio server must be up and running.  To test this, point your browser to http://192.168.4.1:23423/console/.  If you see the management console, it's up and running. Serviio is running as a service on MediaOne, which means it _should_ auto-start when the computer is powered up.  If it doesn't, it will need to be manually started at the MediaOne workstation.
 - The file repository must be accessible on the network.  Currently the files are located on an external USB drive.  A network drive will eventually replace this to provide centrallized access to media.
