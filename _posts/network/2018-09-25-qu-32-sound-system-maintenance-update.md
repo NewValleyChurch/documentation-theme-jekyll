@@ -20,7 +20,7 @@ When loading a pre-saved scene, keys on the ME-1 that have been grouped seem to 
 
 Bring all hardware firmware up to current specs.  All of the ME-1's are current.  The ME-U, and the QU-32 will be updated to the latest firmware.  
 
-{% include alert.html content="There is a service announcement on the pages of the QU-32 at Allen & Heath indicating that the new update to OSX Mojave is an unsuported OS presently.  How this would affect us is unknown at this point as the only connection that we make between the QU-32 and the MediaOne workstation is for USB streaming.  So, if the USB Streaming (i.e. audio recording [sermon] and playback [spotify/youtube]) is affected, then we will need to wait to upgrade MediaOne to Mojave." %}
+{% include important.html content="There is a service announcement on the pages of the QU-32 at Allen & Heath indicating that the new update to OSX Mojave is an unsuported OS presently.  How this would affect us is unknown at this point as the only connection that we make between the QU-32 and the MediaOne workstation is for USB streaming.  So, if the USB Streaming (i.e. audio recording [sermon] and playback [spotify/youtube]) is affected, then we will need to wait to upgrade MediaOne to Mojave." %}
 
 {% include info.html content="Mojave, however, does solve the DisplayLink issue with externally connected USB to HDMI video adapters that High Sierra disabled.  Our current system is only running on Sierra because of this issue.  If we update to High Sierra, we lose our stage display for ProPresenter.  When Mojave is released, we will be assured that the video function will be restored, but must consider the implications with the QU-32 desk." %}
 
