@@ -18,7 +18,6 @@ layout: none
     <description>{{ page.content | strip_html | truncatewords:50 }}</description>
     <link>{{ site.url }}{{ page.url }}</link>
     <source url="{{site.url}}{{page.url}}">{{ page.title }}</source>
-    <pubDate>{{ page.date }} or {{ post.date }}</pubDate>
     <guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
    </item>
   {% endfor %}

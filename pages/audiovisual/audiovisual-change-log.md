@@ -12,6 +12,11 @@ toc: false
 summary: "Changes and updates, repairs, maintenance relating sound, lights, media, and stage."
 ---
 
+## 9-25-2018
+
+-	// Updated QU-32 Desk firmware from 1.93 R4555 to 1.95 R4561.  No significant changes beyond fixing some USB drive problems with the QU Drive USB port.  Maintenance release can be accessed [here](https://www.allen-heath.com/media/Release-Notes-Qu-firmware-V1.95.pdf)
+-	// 
+
 ## 9-24-2018
 
 -	// Installed Serviio Media Server on MediaOne.  Serviio Basic is a free DLNA media server that is recognized by devices that are DLNA compatible, like Media Players (TV's).  In this particular example, the Aquos TV in the Cafe can be served by media on a DLNA server, eliminating the need to copy media to a USB thumb-drive every time we want to update it.  

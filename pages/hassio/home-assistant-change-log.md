@@ -11,6 +11,11 @@ categories: [changelogs]
 toc: false
 summary: "Home Assistant is a powerful automation system that runs on a small micro-computer.  It integrates with almost any electronic device that is connected to the network, whether it be the WIFI network, or a Zwave network.  It is responsible for automating the A/C units in the Sanctuary, lighting, presence detection, etc."
 ---
+
+## 9-25-2018
+
+-	// Added the Node-RED Flow Based Programming add-on to HASS.io
+
 ## 9-22-2018
 
 -	// Added the `feedreader` component to Home Assistant to monitor RSS feeds on `newvalleyresources.com`.  Home Assistant checks each feed every 15 minutes for new content.  If there is new content, an event is logged which can be used to trigger any automation in the system.  Primarily, this will be used to trigger messaging systems such as Slack.com to notify subscribers of the updates to the website.
